@@ -1,0 +1,20 @@
+PUSH 10
+PUSH 10
+MULT
+PUSH 2
+PUSH 25
+MULT
+PUSH 10
+DIV
+SUB
+PRINT
+Numero: 10
+Numero: 10
+Operacao: 10*10
+Numero: 2
+Numero: 25
+Operacao: 2*25
+Numero: 10
+Operacao: 50/10
+Operacao: 100-5
+Resultado: 95

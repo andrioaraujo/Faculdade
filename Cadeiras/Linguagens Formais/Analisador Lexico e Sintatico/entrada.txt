@@ -1,0 +1,15 @@
+program teste;
+	var
+		teste1, teste2: boolean;
+		teste3 : real;
+	begin
+		if 1 then
+		begin
+			atrb := (atrib);
+			write(1);
+		end
+		else
+			begin
+			atrib2:= atrib;
+			end
+	end

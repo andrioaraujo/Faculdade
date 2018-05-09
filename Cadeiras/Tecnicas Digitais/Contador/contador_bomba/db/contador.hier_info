@@ -1,0 +1,82 @@
+|Contador
+limpa => flip_flop_D:Contador_1.clear
+limpa => flip_flop_D:Contador_2.clear
+limpa => flip_flop_D:Contador_3.clear
+limpa => flip_flop_D:Contador_4.clear
+limpa => flip_flop_D:Contador_5.clear
+limpa => flip_flop_D:Contador_6.clear
+clock => flip_flop_D:Contador_1.clk
+saida[0] <= flip_flop_D:Contador_1.q
+saida[1] <= flip_flop_D:Contador_2.q
+saida[2] <= flip_flop_D:Contador_3.q
+saida[3] <= flip_flop_D:Contador_4.q
+saida[4] <= flip_flop_D:Contador_5.q
+saida[5] <= flip_flop_D:Contador_6.q
+
+
+|Contador|flip_flop_D:Contador_1
+d => q~reg0.DATAIN
+d => q_not~reg0.DATAIN
+clk => q_not~reg0.CLK
+clk => q~reg0.CLK
+clear => q~reg0.ACLR
+clear => q_not~reg0.ENA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q_not <= q_not~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Contador|flip_flop_D:Contador_2
+d => q~reg0.DATAIN
+d => q_not~reg0.DATAIN
+clk => q_not~reg0.CLK
+clk => q~reg0.CLK
+clear => q~reg0.ACLR
+clear => q_not~reg0.ENA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q_not <= q_not~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Contador|flip_flop_D:Contador_3
+d => q~reg0.DATAIN
+d => q_not~reg0.DATAIN
+clk => q_not~reg0.CLK
+clk => q~reg0.CLK
+clear => q~reg0.ACLR
+clear => q_not~reg0.ENA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q_not <= q_not~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Contador|flip_flop_D:Contador_4
+d => q~reg0.DATAIN
+d => q_not~reg0.DATAIN
+clk => q_not~reg0.CLK
+clk => q~reg0.CLK
+clear => q~reg0.ACLR
+clear => q_not~reg0.ENA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q_not <= q_not~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Contador|flip_flop_D:Contador_5
+d => q~reg0.DATAIN
+d => q_not~reg0.DATAIN
+clk => q_not~reg0.CLK
+clk => q~reg0.CLK
+clear => q~reg0.ACLR
+clear => q_not~reg0.ENA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q_not <= q_not~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Contador|flip_flop_D:Contador_6
+d => q~reg0.DATAIN
+d => q_not~reg0.DATAIN
+clk => q_not~reg0.CLK
+clk => q~reg0.CLK
+clear => q~reg0.ACLR
+clear => q_not~reg0.ENA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q_not <= q_not~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

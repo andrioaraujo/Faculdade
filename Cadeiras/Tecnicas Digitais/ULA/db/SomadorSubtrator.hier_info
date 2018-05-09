@@ -1,0 +1,77 @@
+|SomadorSubtrator
+entradaSBA[0] => MeioSomador:somador0.entradaMSA
+entradaSBA[1] => MeioSomador:somador1.entradaMSA
+entradaSBA[2] => MeioSomador:somador2.entradaMSA
+entradaSBA[3] => MeioSomador:somador3.entradaMSA
+entradaSBB[0] => aux[0].IN0
+entradaSBB[1] => aux[1].IN0
+entradaSBB[2] => aux[2].IN0
+entradaSBB[3] => aux[3].IN0
+saidaSB[0] <= MeioSomador:somador0.saidaMS
+saidaSB[1] <= MeioSomador:somador1.saidaMS
+saidaSB[2] <= MeioSomador:somador2.saidaMS
+saidaSB[3] <= MeioSomador:somador3.saidaMS
+controleSB => aux[0].IN1
+controleSB => aux[1].IN1
+controleSB => aux[2].IN1
+controleSB => aux[3].IN1
+controleSB => MeioSomador:somador0.carry_inMS
+overflowSB <= overflowSB~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SomadorSubtrator|MeioSomador:somador0
+entradaMSA => carry_outMS~0.IN0
+entradaMSA => carry_outMS~1.IN0
+entradaMSA => saidaMS~0.IN0
+entradaMSB => carry_outMS~0.IN1
+entradaMSB => carry_outMS~3.IN0
+entradaMSB => saidaMS~1.IN1
+carry_inMS => carry_outMS~1.IN1
+carry_inMS => carry_outMS~3.IN1
+carry_inMS => saidaMS~0.IN1
+saidaMS <= saidaMS~1.DB_MAX_OUTPUT_PORT_TYPE
+carry_outMS <= carry_outMS~4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SomadorSubtrator|MeioSomador:somador1
+entradaMSA => carry_outMS~0.IN0
+entradaMSA => carry_outMS~1.IN0
+entradaMSA => saidaMS~0.IN0
+entradaMSB => carry_outMS~0.IN1
+entradaMSB => carry_outMS~3.IN0
+entradaMSB => saidaMS~1.IN1
+carry_inMS => carry_outMS~1.IN1
+carry_inMS => carry_outMS~3.IN1
+carry_inMS => saidaMS~0.IN1
+saidaMS <= saidaMS~1.DB_MAX_OUTPUT_PORT_TYPE
+carry_outMS <= carry_outMS~4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SomadorSubtrator|MeioSomador:somador2
+entradaMSA => carry_outMS~0.IN0
+entradaMSA => carry_outMS~1.IN0
+entradaMSA => saidaMS~0.IN0
+entradaMSB => carry_outMS~0.IN1
+entradaMSB => carry_outMS~3.IN0
+entradaMSB => saidaMS~1.IN1
+carry_inMS => carry_outMS~1.IN1
+carry_inMS => carry_outMS~3.IN1
+carry_inMS => saidaMS~0.IN1
+saidaMS <= saidaMS~1.DB_MAX_OUTPUT_PORT_TYPE
+carry_outMS <= carry_outMS~4.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|SomadorSubtrator|MeioSomador:somador3
+entradaMSA => carry_outMS~0.IN0
+entradaMSA => carry_outMS~1.IN0
+entradaMSA => saidaMS~0.IN0
+entradaMSB => carry_outMS~0.IN1
+entradaMSB => carry_outMS~3.IN0
+entradaMSB => saidaMS~1.IN1
+carry_inMS => carry_outMS~1.IN1
+carry_inMS => carry_outMS~3.IN1
+carry_inMS => saidaMS~0.IN1
+saidaMS <= saidaMS~1.DB_MAX_OUTPUT_PORT_TYPE
+carry_outMS <= carry_outMS~4.DB_MAX_OUTPUT_PORT_TYPE
+
+

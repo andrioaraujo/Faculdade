@@ -1,0 +1,26 @@
+jmp     inicio          
+begin_macro ferrugem1
+mov     r0, 1        
+syscall  
+end_macro
+x:      dw      ?               
+y:      dw      ?               
+z:      dw      ?               
+soma:   dw      ?               
+rocksolid:	dw	public	?
+rocksolid1:	dw	public	?
+rocksolid2:	dw	public	?
+rocksolid3:	dw	public	?
+inicio:
+mov     r0, 0        
+syscall                 
+mov     [x], r1         
+syscall                 
+mov     [y], r1                      
+add     r1, r0                 
+add     r0, r1          
+mov     [soma], r0      
+mov     r0, 1       
+syscall
+ferrugem1               
+halt

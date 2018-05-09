@@ -1,0 +1,27 @@
+.jumbotron {
+    background-color: #1d1a1a !important;
+    color: white !important;
+    z-index: 999;
+    margin-bottom: 0;
+    border-radius: inherit;
+}
+.filme {
+    margin-top: 80px;
+}
+.loading {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: transparent;
+
+}
+
+.loading h1 {
+    top: 50%;
+    left: 50%;
+    color: black;
+    text-align: center;
+    position: absolute;
+    margin-left: -119px;
+    margin-top: -135.5px;
+}

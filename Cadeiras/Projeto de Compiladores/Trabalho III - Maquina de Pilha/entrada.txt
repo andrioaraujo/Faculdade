@@ -1,0 +1,19 @@
+PUSH 10
+
+PUSH 10
+
+MULT
+
+PUSH 2
+
+PUSH 25
+
+MULT
+
+PUSH 10
+
+DIV
+
+SUB
+
+PRINT

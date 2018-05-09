@@ -1,0 +1,36 @@
+<section>
+    <div class="jumbotron text-center">
+        <h1>Resultado da Pesquisa</h1>
+    </div>
+    <section *ngIf="!flag && !erro">
+        <div class="loading">
+            <h1>Carregando...</h1>
+        </div>
+    </section>
+
+    <section *ngIf="flag && erro">
+        <div class="loading">
+            <h1>Algo deu errado :(</h1>
+        </div>
+    </section>
+
+    <div *ngIf="flag && !erro" class="container">
+        <div class="row mt-20">
+            <div class="input-group">
+                <input type="text" (keyup.enter)="busca()" class="form-control" [(ngModel)]="novaBusca" name="novaBusca" value="" placeholder="Busque por outra palavra chave...">
+                <span class="input-group-btn">
+                    <button (click)="busca()" class="btn btn-secondary" [disabled]="!novaBusca">Ir</button>
+                </span>
+            </div>
+        </div>
+        <div class="row filme" *ngFor="let filme of filmes">
+            <div class="col-sm-12 text-center">
+                <h2>{{filme.nome}}</h2>
+                <iframe width="560" height="315" [src]="filme.link | safe" frameborder="0" allowfullscreen></iframe>
+                <p>{{filme.resumo}}</p>
+            </div>
+            <hr/>
+        </div>
+    </div>
+</section>
+<app-footer *ngIf="flag"></app-footer>

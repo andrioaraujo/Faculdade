@@ -1,0 +1,31 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.all;
+ENTITY contador is 
+port(
+		limpa, clock: in std_logic;
+		saida: out std_logic_vector (5 downto 0)
+	);
+end contador;
+ARCHITECTURE arc_contador of contador is
+signal Qnot_temp: std_logic_vector (5 downto 0);
+component flip_flop_D
+port(
+		d, clk: in std_logic;
+		clear : in std_logic;
+		q, q_not: out std_logic
+  );
+end component;
+begin 
+Contador_1: flip_flop_D
+	port map( clear => limpa, d => Qnot_temp(0), q_not => Qnot_temp(0), q => saida(0), clk => clock);
+Contador_2: flip_flop_D
+	port map( clear => limpa, d => Qnot_temp(1), q_not => Qnot_temp(1), q=>saida(1), clk => Qnot_temp(0));
+Contador_3: flip_flop_D
+	port map( clear => limpa, d => Qnot_temp(2), q_not => Qnot_temp(2), q=>saida(2), clk => Qnot_temp(1));
+Contador_4: flip_flop_D
+	port map( clear => limpa, d => Qnot_temp(3), q_not => Qnot_temp(3), q=>saida(3), clk => Qnot_temp(2));
+Contador_5: flip_flop_D
+	port map( clear => limpa, d => Qnot_temp(4), q_not => Qnot_temp(4), q=>saida(4), clk => Qnot_temp(3));
+Contador_6: flip_flop_D
+	port map( clear => limpa, d => Qnot_temp(5), q_not => Qnot_temp(5), q=>saida(5), clk => Qnot_temp(4));
+end arc_contador;

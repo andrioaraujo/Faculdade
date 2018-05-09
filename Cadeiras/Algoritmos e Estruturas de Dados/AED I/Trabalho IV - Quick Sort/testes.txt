@@ -1,0 +1,1 @@
+Quick Sort(pivo = primeiro elemento) = 1.895s

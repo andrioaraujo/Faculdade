@@ -1,0 +1,8 @@
+<div class="wrap">
+    <div class="flex jcsb fdc procura ic">
+        <img class="logo-busca" src="assets/img/movie.png" alt="">
+        <input class="pesquisa" type="text" (keyup.enter)="procura()" [(ngModel)]="pesquisaInput" name="procura" value="" placeholder="Procure um trailer por uma palavra chave">
+        <button class="btn-primary btn-pesquisa"  (click)="procura()">Pesquisar</button>
+    </div>
+</div>
+<app-footer></app-footer>

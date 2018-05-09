@@ -1,0 +1,49 @@
+prog  -> <prog><ID><PV>vars bloco
+vars  -> <var>var1
+var1  -> <ID>var2 | E
+var2  -> :var3 | <,>var1
+var3  -> <real><PV>var1 | <bool><PV>var1
+bloco -> <begin> comandos <end>
+comandos -> <if>comif comandos| <write>comwrite comandos | <read>comread comandos | <id>comatrib comandos | E
+comif ->  exp <then> bloco comelse
+comelse ->  bloco | E
+comread ->  <(> ListaVar <)> <;>
+comwrite ->  <(> exp <)><;>
+
+
+comatrib ->  <atrib> exp <PV>
+
+
+
+ListaExpressao -> exp ListaExpressao2
+ListaExpressao2   -> <,> ListaExpressao | E
+
+
+ListaVar -> <id> Lista2
+ListaVar2   -> <,> ListaVar | E
+
+
+
+expressao -> ExpLog R ExpLog | ExpLog
+ExpLog -> ExpSom L ExpSom | ExpSom
+ExpSom -> ExpMult S ExpMult | ExpMult
+ExpMult -> ExpFinal M ExpFinal | ExpFinal
+ExpFinal -> (expressao) | <id> | <num> | <true> | <false>
+
+R -> > | < | <= | >= | = | <>
+L -> and | or
+S -> - | +
+M -> * | divi | / 
+
+
+
+program teste;
+	var
+		teste, teste2: boolean;
+		teste3: real;
+	begin
+		write(1+1);
+	end
+
+
+

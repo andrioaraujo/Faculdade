@@ -1,0 +1,275 @@
+Quartus II
+Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+11
+1000
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+ULA
+# storage
+db|ULA.(0).cnf
+db|ULA.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+ula.vhd
+8cf28bc3ca30ed2cdb227c06e928cfb
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+|
+}
+# lmf
+d:|faculdade|quartusii|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+SomadorSubtrator
+# storage
+db|ULA.(1).cnf
+db|ULA.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+somadorsubtrator.vhd
+406f9181ca674ab34cc2225e0615583
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(entradasba)
+3 downto 0
+PARAMETER_STRING
+USR
+ constraint(entradasbb)
+3 downto 0
+PARAMETER_STRING
+USR
+ constraint(saidasb)
+3 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+SomadorSubtrator:Soma
+SomadorSubtrator:Subtração
+}
+# lmf
+d:|faculdade|quartusii|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+MeioSomador
+# storage
+db|ULA.(2).cnf
+db|ULA.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+meiosomador.vhd
+6af85da582fd0ba84b4ffbcff857ab
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+SomadorSubtrator:Soma|MeioSomador:somador0
+SomadorSubtrator:Soma|MeioSomador:somador1
+SomadorSubtrator:Soma|MeioSomador:somador2
+SomadorSubtrator:Soma|MeioSomador:somador3
+SomadorSubtrator:Subtração|MeioSomador:somador0
+SomadorSubtrator:Subtração|MeioSomador:somador1
+SomadorSubtrator:Subtração|MeioSomador:somador2
+SomadorSubtrator:Subtração|MeioSomador:somador3
+}
+# lmf
+d:|faculdade|quartusii|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+DeslocadorEsquerda
+# storage
+db|ULA.(3).cnf
+db|ULA.(3).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+deslocadoresquerda.vhd
+a383f0eb8c57ee92214e6bdc6295711
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(valorde)
+3 downto 0
+PARAMETER_STRING
+USR
+ constraint(respostade)
+3 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+DeslocadorEsquerda:DeslocaL
+}
+# lmf
+d:|faculdade|quartusii|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+DeslocadorDireita
+# storage
+db|ULA.(4).cnf
+db|ULA.(4).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+deslocadordireita.vhd
+91c1f411a0694685658c7fccdb1563
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(valordd)
+3 downto 0
+PARAMETER_STRING
+USR
+ constraint(respostadd)
+3 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+DeslocadorDireita:DeslocaR
+}
+# lmf
+d:|faculdade|quartusii|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+bcdsegmentos
+# storage
+db|ULA.(5).cnf
+db|ULA.(5).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+bcdsegmentos.vhd
+80125aea375bb92c26a6e79c9757a6a
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(entrada7)
+3 downto 0
+PARAMETER_STRING
+USR
+ constraint(saida7)
+6 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+bcdsegmentos:Saida7segmentos
+bcdsegmentos:EntradaA7segmentos
+bcdsegmentos:EntradaB7segmentos
+}
+# lmf
+|faculdade|quartusii|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# complete
+

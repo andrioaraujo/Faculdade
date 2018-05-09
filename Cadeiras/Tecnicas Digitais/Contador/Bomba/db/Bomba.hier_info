@@ -1,0 +1,310 @@
+|Bomba
+Start => ativa_clock.OUTPUTSELECT
+Clock => Divisor_frequencia:Divisor_de_frequência.ent_clock
+Clear => contador:Cont_reg.limpa
+codigo_desarme[0] => Mux0.IN5
+codigo_desarme[0] => Mux1.IN5
+codigo_desarme[0] => Mux2.IN5
+codigo_desarme[0] => Mux3.IN5
+codigo_desarme[0] => Mux4.IN5
+codigo_desarme[0] => Mux5.IN5
+codigo_desarme[0] => Mux6.IN5
+codigo_desarme[0] => Mux7.IN5
+codigo_desarme[0] => Mux8.IN5
+codigo_desarme[0] => Mux9.IN5
+codigo_desarme[0] => Mux10.IN5
+codigo_desarme[0] => Mux11.IN5
+codigo_desarme[0] => Mux12.IN5
+codigo_desarme[0] => Mux13.IN5
+codigo_desarme[1] => Mux0.IN4
+codigo_desarme[1] => Mux1.IN4
+codigo_desarme[1] => Mux2.IN4
+codigo_desarme[1] => Mux3.IN4
+codigo_desarme[1] => Mux4.IN4
+codigo_desarme[1] => Mux5.IN4
+codigo_desarme[1] => Mux6.IN4
+codigo_desarme[1] => Mux7.IN4
+codigo_desarme[1] => Mux8.IN4
+codigo_desarme[1] => Mux9.IN4
+codigo_desarme[1] => Mux10.IN4
+codigo_desarme[1] => Mux11.IN4
+codigo_desarme[1] => Mux12.IN4
+codigo_desarme[1] => Mux13.IN4
+codigo_desarme[2] => Mux0.IN3
+codigo_desarme[2] => Mux1.IN3
+codigo_desarme[2] => Mux2.IN3
+codigo_desarme[2] => Mux3.IN3
+codigo_desarme[2] => Mux4.IN3
+codigo_desarme[2] => Mux5.IN3
+codigo_desarme[2] => Mux6.IN3
+codigo_desarme[2] => Mux7.IN3
+codigo_desarme[2] => Mux8.IN3
+codigo_desarme[2] => Mux9.IN3
+codigo_desarme[2] => Mux10.IN3
+codigo_desarme[2] => Mux11.IN3
+codigo_desarme[2] => Mux12.IN3
+codigo_desarme[2] => Mux13.IN3
+codigo_desarme[3] => Mux0.IN2
+codigo_desarme[3] => Mux1.IN2
+codigo_desarme[3] => Mux2.IN2
+codigo_desarme[3] => Mux3.IN2
+codigo_desarme[3] => Mux4.IN2
+codigo_desarme[3] => Mux5.IN2
+codigo_desarme[3] => Mux6.IN2
+codigo_desarme[3] => Mux7.IN2
+codigo_desarme[3] => Mux8.IN2
+codigo_desarme[3] => Mux9.IN2
+codigo_desarme[3] => Mux10.IN2
+codigo_desarme[3] => Mux11.IN2
+codigo_desarme[3] => Mux12.IN2
+codigo_desarme[3] => Mux13.IN2
+codigo_desarme[4] => Mux0.IN1
+codigo_desarme[4] => Mux1.IN1
+codigo_desarme[4] => Mux2.IN1
+codigo_desarme[4] => Mux3.IN1
+codigo_desarme[4] => Mux4.IN1
+codigo_desarme[4] => Mux5.IN1
+codigo_desarme[4] => Mux6.IN1
+codigo_desarme[4] => Mux7.IN1
+codigo_desarme[4] => Mux8.IN1
+codigo_desarme[4] => Mux9.IN1
+codigo_desarme[4] => Mux10.IN1
+codigo_desarme[4] => Mux11.IN1
+codigo_desarme[4] => Mux12.IN1
+codigo_desarme[4] => Mux13.IN1
+saida_display[0] <= Mux13.DB_MAX_OUTPUT_PORT_TYPE
+saida_display[1] <= Mux12.DB_MAX_OUTPUT_PORT_TYPE
+saida_display[2] <= Mux11.DB_MAX_OUTPUT_PORT_TYPE
+saida_display[3] <= Mux10.DB_MAX_OUTPUT_PORT_TYPE
+saida_display[4] <= Mux9.DB_MAX_OUTPUT_PORT_TYPE
+saida_display[5] <= Mux8.DB_MAX_OUTPUT_PORT_TYPE
+saida_display[6] <= Mux7.DB_MAX_OUTPUT_PORT_TYPE
+saida_display[7] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+saida_display[8] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+saida_display[9] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+saida_display[10] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+saida_display[11] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+saida_display[12] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+saida_display[13] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Bomba|Divisor_frequencia:Divisor_de_frequência
+ent_clock => D.CLK
+ent_clock => count3[0].CLK
+ent_clock => count3[1].CLK
+ent_clock => count3[2].CLK
+ent_clock => count3[3].CLK
+ent_clock => count3[4].CLK
+ent_clock => count3[5].CLK
+ent_clock => count3[6].CLK
+ent_clock => count3[7].CLK
+ent_clock => count3[8].CLK
+ent_clock => count3[9].CLK
+ent_clock => count2[0].CLK
+ent_clock => count2[1].CLK
+ent_clock => count2[2].CLK
+ent_clock => count2[3].CLK
+ent_clock => count2[4].CLK
+ent_clock => count2[5].CLK
+ent_clock => count2[6].CLK
+ent_clock => count2[7].CLK
+ent_clock => count2[8].CLK
+ent_clock => count2[9].CLK
+ent_clock => count1[0].CLK
+ent_clock => count1[1].CLK
+ent_clock => count1[2].CLK
+ent_clock => count1[3].CLK
+ent_clock => count1[4].CLK
+ent_clock => count1[5].CLK
+ent_clock => count1[6].CLK
+ent_clock => count1[7].CLK
+ent_clock => count1[8].CLK
+ent_clock => count1[9].CLK
+ent_clock => count0[0].CLK
+ent_clock => count0[1].CLK
+ent_clock => count0[2].CLK
+ent_clock => count0[3].CLK
+ent_clock => count0[4].CLK
+ent_clock => count0[5].CLK
+ent_clock => count0[6].CLK
+ent_clock => count0[7].CLK
+ent_clock => count0[8].CLK
+ent_clock => count0[9].CLK
+sai_clock <= D.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Bomba|contador:Cont_reg
+limpa => flip_flop_D:Contador_1.clear
+limpa => flip_flop_D:Contador_2.clear
+limpa => flip_flop_D:Contador_3.clear
+limpa => flip_flop_D:Contador_4.clear
+limpa => flip_flop_D:Contador_5.clear
+limpa => flip_flop_D:Contador_6.clear
+clock => flip_flop_D:Contador_1.clk
+saida[0] <= flip_flop_D:Contador_1.q
+saida[1] <= flip_flop_D:Contador_2.q
+saida[2] <= flip_flop_D:Contador_3.q
+saida[3] <= flip_flop_D:Contador_4.q
+saida[4] <= flip_flop_D:Contador_5.q
+saida[5] <= flip_flop_D:Contador_6.q
+
+
+|Bomba|contador:Cont_reg|flip_flop_D:Contador_1
+d => q~reg0.DATAIN
+d => q_not~reg0.DATAIN
+clk => q_not~reg0.CLK
+clk => q~reg0.CLK
+clear => q~reg0.ACLR
+clear => q_not~reg0.ENA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q_not <= q_not~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Bomba|contador:Cont_reg|flip_flop_D:Contador_2
+d => q~reg0.DATAIN
+d => q_not~reg0.DATAIN
+clk => q_not~reg0.CLK
+clk => q~reg0.CLK
+clear => q~reg0.ACLR
+clear => q_not~reg0.ENA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q_not <= q_not~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Bomba|contador:Cont_reg|flip_flop_D:Contador_3
+d => q~reg0.DATAIN
+d => q_not~reg0.DATAIN
+clk => q_not~reg0.CLK
+clk => q~reg0.CLK
+clear => q~reg0.ACLR
+clear => q_not~reg0.ENA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q_not <= q_not~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Bomba|contador:Cont_reg|flip_flop_D:Contador_4
+d => q~reg0.DATAIN
+d => q_not~reg0.DATAIN
+clk => q_not~reg0.CLK
+clk => q~reg0.CLK
+clear => q~reg0.ACLR
+clear => q_not~reg0.ENA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q_not <= q_not~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Bomba|contador:Cont_reg|flip_flop_D:Contador_5
+d => q~reg0.DATAIN
+d => q_not~reg0.DATAIN
+clk => q_not~reg0.CLK
+clk => q~reg0.CLK
+clear => q~reg0.ACLR
+clear => q_not~reg0.ENA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q_not <= q_not~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Bomba|contador:Cont_reg|flip_flop_D:Contador_6
+d => q~reg0.DATAIN
+d => q_not~reg0.DATAIN
+clk => q_not~reg0.CLK
+clk => q~reg0.CLK
+clear => q~reg0.ACLR
+clear => q_not~reg0.ENA
+q <= q~reg0.DB_MAX_OUTPUT_PORT_TYPE
+q_not <= q_not~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Bomba|sete_seg_bomba:Display
+entrada_seg[0] => Mux7.IN69
+entrada_seg[0] => Mux8.IN69
+entrada_seg[0] => Mux9.IN69
+entrada_seg[0] => Mux10.IN69
+entrada_seg[0] => Mux11.IN69
+entrada_seg[0] => Mux12.IN69
+entrada_seg[0] => Mux13.IN69
+entrada_seg[1] => Mux0.IN36
+entrada_seg[1] => Mux1.IN36
+entrada_seg[1] => Mux2.IN36
+entrada_seg[1] => Mux3.IN36
+entrada_seg[1] => Mux4.IN36
+entrada_seg[1] => Mux5.IN36
+entrada_seg[1] => Mux7.IN68
+entrada_seg[1] => Mux8.IN68
+entrada_seg[1] => Mux9.IN68
+entrada_seg[1] => Mux10.IN68
+entrada_seg[1] => Mux11.IN68
+entrada_seg[1] => Mux12.IN68
+entrada_seg[1] => Mux13.IN68
+entrada_seg[2] => Mux0.IN35
+entrada_seg[2] => Mux1.IN35
+entrada_seg[2] => Mux2.IN35
+entrada_seg[2] => Mux3.IN35
+entrada_seg[2] => Mux4.IN35
+entrada_seg[2] => Mux5.IN35
+entrada_seg[2] => Mux6.IN19
+entrada_seg[2] => Mux7.IN67
+entrada_seg[2] => Mux8.IN67
+entrada_seg[2] => Mux9.IN67
+entrada_seg[2] => Mux10.IN67
+entrada_seg[2] => Mux11.IN67
+entrada_seg[2] => Mux12.IN67
+entrada_seg[2] => Mux13.IN67
+entrada_seg[3] => Mux0.IN34
+entrada_seg[3] => Mux1.IN34
+entrada_seg[3] => Mux2.IN34
+entrada_seg[3] => Mux3.IN34
+entrada_seg[3] => Mux4.IN34
+entrada_seg[3] => Mux5.IN34
+entrada_seg[3] => Mux6.IN18
+entrada_seg[3] => Mux7.IN66
+entrada_seg[3] => Mux8.IN66
+entrada_seg[3] => Mux9.IN66
+entrada_seg[3] => Mux10.IN66
+entrada_seg[3] => Mux11.IN66
+entrada_seg[3] => Mux12.IN66
+entrada_seg[3] => Mux13.IN66
+entrada_seg[4] => Mux0.IN33
+entrada_seg[4] => Mux1.IN33
+entrada_seg[4] => Mux2.IN33
+entrada_seg[4] => Mux3.IN33
+entrada_seg[4] => Mux4.IN33
+entrada_seg[4] => Mux5.IN33
+entrada_seg[4] => Mux6.IN17
+entrada_seg[4] => Mux7.IN65
+entrada_seg[4] => Mux8.IN65
+entrada_seg[4] => Mux9.IN65
+entrada_seg[4] => Mux10.IN65
+entrada_seg[4] => Mux11.IN65
+entrada_seg[4] => Mux12.IN65
+entrada_seg[4] => Mux13.IN65
+entrada_seg[5] => Mux0.IN32
+entrada_seg[5] => Mux1.IN32
+entrada_seg[5] => Mux2.IN32
+entrada_seg[5] => Mux3.IN32
+entrada_seg[5] => Mux4.IN32
+entrada_seg[5] => Mux5.IN32
+entrada_seg[5] => Mux6.IN16
+entrada_seg[5] => Mux7.IN64
+entrada_seg[5] => Mux8.IN64
+entrada_seg[5] => Mux9.IN64
+entrada_seg[5] => Mux10.IN64
+entrada_seg[5] => Mux11.IN64
+entrada_seg[5] => Mux12.IN64
+entrada_seg[5] => Mux13.IN64
+saida_seg[13] <= Mux13.DB_MAX_OUTPUT_PORT_TYPE
+saida_seg[12] <= Mux12.DB_MAX_OUTPUT_PORT_TYPE
+saida_seg[11] <= Mux11.DB_MAX_OUTPUT_PORT_TYPE
+saida_seg[10] <= Mux10.DB_MAX_OUTPUT_PORT_TYPE
+saida_seg[9] <= Mux9.DB_MAX_OUTPUT_PORT_TYPE
+saida_seg[8] <= Mux8.DB_MAX_OUTPUT_PORT_TYPE
+saida_seg[7] <= Mux7.DB_MAX_OUTPUT_PORT_TYPE
+saida_seg[6] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+saida_seg[5] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+saida_seg[4] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+saida_seg[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+saida_seg[2] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+saida_seg[1] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+saida_seg[0] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

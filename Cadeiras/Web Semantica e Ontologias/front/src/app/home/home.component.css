@@ -1,0 +1,69 @@
+
+.wrap {
+    height: 100%;
+    width: 100%; 
+    background: #1e5799;
+    /*background: -moz-linear-gradient(top, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+    background: -webkit-linear-gradient(top, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);*/
+    background: linear-gradient(to top,#2da2ba 0%,#79236a 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#7db9e8',GradientType=0 );
+}
+
+.logo-busca {
+    width: 100px;
+    animation: App-logo-spin infinite 10s linear;
+}
+
+
+
+.procura {
+    width: 500px;
+    top: 50%;
+    left: 50%;
+    position: fixed;
+    margin-left: -250px;
+    margin-top: -136px;
+    border: 1px solid #eceeef;
+    padding: 50px;
+    -webkit-box-shadow: 4px 8px 64px -6px #eceeef;
+    -moz-box-shadow: 4px 8px 64px -6px #eceeef;
+    box-shadow: 4px 8px 64px -6px #eceeef;
+}
+
+.ic {
+    align-items: center;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.pesquisa {
+    border-radius: inherit;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    margin-top: 20px;
+}
+.pesquisa:focus {
+    box-shadow: 0 0 0 99999px rgba(0,0,0,.8);
+    transition-delay: 0s, 1s;
+}
+
+input::-webkit-input-placeholder {
+    color: darkslategrey
+}
+.btn-pesquisa {
+    width: 30%;
+    padding: 6px;
+    border: none;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 9px 19px -5px rgba(0,0,0,0.75);
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+

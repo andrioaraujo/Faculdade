@@ -1,0 +1,209 @@
+Quartus II
+Version 9.1 Build 350 03/24/2010 Service Pack 2 SJ Web Edition
+7
+3700
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+Bomba
+# storage
+db|Bomba.(0).cnf
+db|Bomba.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+bomba.vhd
+5f3756a38083e7cd5b404971c91cfd15
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+|
+}
+# lmf
+|faculdade|quartusii|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+Divisor_frequencia
+# storage
+db|Bomba.(1).cnf
+db|Bomba.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+divisor_frequencia.vhd
+6c695d4843d3f1b56618b6cb67319e
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+Divisor_frequencia:Divisor_de_frequência
+}
+# lmf
+|faculdade|quartusii|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+contador
+# storage
+db|Bomba.(2).cnf
+db|Bomba.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+contador.vhd
+3e6f417ad99225c84194d1a4984264ac
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(saida)
+5 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+contador:Cont_reg
+}
+# lmf
+|faculdade|quartusii|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+flip_flop_D
+# storage
+db|Bomba.(3).cnf
+db|Bomba.(3).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+flip_flop_d.vhd
+4093184e9bb61484c4d0fe0fc66ee
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+contador:Cont_reg|flip_flop_D:Contador_1
+contador:Cont_reg|flip_flop_D:Contador_2
+contador:Cont_reg|flip_flop_D:Contador_3
+contador:Cont_reg|flip_flop_D:Contador_4
+contador:Cont_reg|flip_flop_D:Contador_5
+contador:Cont_reg|flip_flop_D:Contador_6
+}
+# lmf
+|faculdade|quartusii|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+sete_seg_bomba
+# storage
+db|Bomba.(4).cnf
+db|Bomba.(4).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+sete_seg_bomba.vhd
+b3581b87edbc2f2d8511d8161d5c4
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(entrada_seg)
+5 downto 0
+PARAMETER_STRING
+USR
+ constraint(saida_seg)
+0 to 13
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+sete_seg_bomba:Display
+}
+# lmf
+|faculdade|quartusii|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# complete
+
