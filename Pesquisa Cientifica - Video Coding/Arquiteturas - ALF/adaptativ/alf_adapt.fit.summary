@@ -1,0 +1,25 @@
+Fitter Status : Successful - Fri Nov 15 21:06:46 2013
+Quartus II 64-Bit Version : 12.1 Build 177 11/07/2012 SJ Full Version
+Revision Name : alf_adapt
+Top-level Entity Name : alf_adapt
+Family : Stratix V
+Device : 5SGXMABN3F45I4
+Timing Models : Preliminary
+Logic utilization (in ALMs) : 521 / 359,200 ( < 1 % )
+Total registers : 1069
+Total pins : 524 / 1,064 ( 49 % )
+Total virtual pins : 0
+Total block memory bits : 0 / 54,067,200 ( 0 % )
+Total DSP Blocks : 17 / 352 ( 5 % )
+Total HSSI STD RX PCSs : 0 / 48 ( 0 % )
+Total HSSI 10G RX PCSs : 0 / 48 ( 0 % )
+Total HSSI GEN3 RX PCSs : 0 / 48 ( 0 % )
+Total HSSI PMA RX Deserializers : 0 / 48 ( 0 % )
+Total HSSI STD TX PCSs : 0 / 48 ( 0 % )
+Total HSSI 10G TX PCSs : 0 / 48 ( 0 % )
+Total HSSI GEN3 TX PCSs : 0 / 48 ( 0 % )
+Total HSSI PMA TX Serializers : 0 / 48 ( 0 % )
+Total HSSI PIPE GEN1_2s : 0 / 48 ( 0 % )
+Total HSSI GEN3s : 0 / 48 ( 0 % )
+Total PLLs : 0 / 98 ( 0 % )
+Total DLLs : 0 / 4 ( 0 % )

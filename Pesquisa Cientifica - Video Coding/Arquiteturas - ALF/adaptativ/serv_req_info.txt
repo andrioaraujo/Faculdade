@@ -1,0 +1,8 @@
+<internal_error>
+	<executable>quartus_fit.exe</executable>
+	<sub_system>MEM</sub_system>
+	<error>*** Fatal Error: Out of memory in module quartus_fit.exe (3885 megabytes used) while running 32-bit Quartus II 32-bit on a 64-bit OS platform.  Please use the 64-bit Quartus II 32-bit to increase memory capacity.</error>
+	<date>Fri Nov 15 20:16:55 2013</date>
+	<version>Version 12.0 Build 178 05/31/2012 SJ Full Version</version>
+</internal_error>
+

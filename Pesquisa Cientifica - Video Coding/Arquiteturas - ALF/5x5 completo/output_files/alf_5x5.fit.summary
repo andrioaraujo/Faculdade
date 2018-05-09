@@ -1,0 +1,17 @@
+Fitter Status : Successful - Thu Nov 14 01:40:32 2013
+Quartus II 32-bit Version : 12.1 Build 177 11/07/2012 SJ Full Version
+Revision Name : alf_5x5
+Top-level Entity Name : alf_5x5
+Family : Stratix II
+Device : EP2S15F484C3
+Timing Models : Final
+Logic utilization : 2 %
+    Combinational ALUTs : 93 / 12,480 ( < 1 % )
+    Dedicated logic registers : 174 / 12,480 ( 1 % )
+Total registers : 174
+Total pins : 192 / 343 ( 56 % )
+Total virtual pins : 0
+Total block memory bits : 0 / 419,328 ( 0 % )
+DSP block 9-bit elements : 16 / 96 ( 17 % )
+Total PLLs : 0 / 6 ( 0 % )
+Total DLLs : 0 / 2 ( 0 % )

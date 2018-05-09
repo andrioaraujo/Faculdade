@@ -1,0 +1,17 @@
+Analysis & Synthesis Status : Successful - Mon Nov 10 21:43:09 2014
+Quartus II 32-bit Version : 12.1 Build 177 11/07/2012 SJ Web Edition
+Revision Name : ALFMultiMulti
+Top-level Entity Name : alfmultimulti
+Family : Cyclone V
+Logic utilization (in ALMs) : N/A
+Total registers : 379
+Total pins : 525
+Total virtual pins : 0
+Total block memory bits : 0
+Total DSP Blocks : 20
+Total HSSI RX PCSs : 0
+Total HSSI PMA RX Deserializers : 0
+Total HSSI TX PCSs : 0
+Total HSSI PMA TX Serializers : 0
+Total PLLs : 0
+Total DLLs : 0

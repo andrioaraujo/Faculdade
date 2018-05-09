@@ -1,0 +1,22 @@
+Fitter Status : Successful - Tue May 27 16:41:51 2014
+Quartus II Version : 9.1 Build 222 10/21/2009 SJ Full Version
+Revision Name : alf_5x5
+Top-level Entity Name : alf_5x5
+Family : Stratix IV
+Device : EP4SE530F43C2ES
+Timing Models : Preliminary
+Logic utilization : < 1 %
+    Combinational ALUTs : 107 / 424,960 ( < 1 % )
+    Memory ALUTs : 0 / 212,480 ( 0 % )
+    Dedicated logic registers : 226 / 424,960 ( < 1 % )
+Total registers : 226
+Total pins : 244 / 976 ( 25 % )
+Total virtual pins : 0
+Total block memory bits : 0 / 21,233,664 ( 0 % )
+DSP block 18-bit elements : 10 / 1,024 ( < 1 % )
+Total GXB Receiver Channel PCS : 0
+Total GXB Receiver Channel PMA : 0
+Total GXB Transmitter Channel PCS : 0
+Total GXB Transmitter Channel PMA : 0
+Total PLLs : 0 / 12 ( 0 % )
+Total DLLs : 0 / 4 ( 0 % )

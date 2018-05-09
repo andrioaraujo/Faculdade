@@ -1,0 +1,4 @@
+v1
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,altmult_add:Add14_rtl_2|mult_add_na94:auto_generated|mac_out5,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,altmult_add:Add16_rtl_1|mult_add_7eb4:auto_generated|mac_out5,
+DSP_BALANCING_IMPLEMENTATION,DSP_BLOCKS,altmult_add:Add9_rtl_0|mult_add_2bm3:auto_generated|mac_out3,

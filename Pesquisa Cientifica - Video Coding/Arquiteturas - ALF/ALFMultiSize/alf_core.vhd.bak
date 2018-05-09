@@ -1,0 +1,57 @@
+library IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+use IEEE.STD_LOGIC_ARITH.ALL;
+use IEEE.STD_LOGIC_SIGNED.ALL;
+
+-- Somente carca�a do 7x7 sem clipping no final e sem fazer a soma com o n�cleo do 5x5
+entity alf_core is
+	generic (n: integer := 8);
+		port  (	--amostras de entrada
+				a1, a2, a3, a4, a5, a6, a7, a8, a9: in std_logic_vector(n-1 downto 0);
+				--coeficientes
+				c1, c2, c3, c4, c5: in std_logic_vector(n+1 downto 0);
+				reset,clk: in std_logic;
+				s: out std_logic_vector(n*2+4 downto 0)
+				);
+end alf_core;
+
+architecture behavioral of alf_core is
+	--registrador de entrada para as amostras
+	signal aa1, aa2, aa3, aa4, aa5: std_logic_vector(n downto 0);
+	signal mult_1, mult_2, mult_3, mult_4, mult_5: std_logic_vector(2*n downto 0);
+	signal reg1, reg2, reg3, reg4, reg5: std_logic_vector(2*n downto 0);
+	
+begin
+	process (clk)
+	begin
+		if(clk'event and clk = '1')then	
+		
+			reg1 <= mult_1;
+			reg2 <= mult_2;
+			reg3 <= mult_3;
+			reg4 <= mult_4;
+			reg5 <= mult_5;
+				
+
+		end if;
+	end process;
+	
+			
+			
+			aa1 <= a1+a9;
+			aa2 <= a2+a8;
+			aa3 <= a3+a7;
+			aa4 <= a4+a6;
+			aa5 <= '0'&a5;
+			
+			mult_1 <= aa1 * c1;
+			mult_2 <= aa2 * c2;
+			mult_3 <= aa3 * c3;
+			mult_4 <= aa4 * c4;
+			mult_5 <= aa5 * c5;
+			
+			s <= reg1 + reg2 + reg3 + reg4 + reg5;
+			
+			
+	
+end behavioral;

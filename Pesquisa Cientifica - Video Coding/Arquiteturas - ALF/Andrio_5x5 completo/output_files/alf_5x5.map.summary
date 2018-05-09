@@ -1,0 +1,20 @@
+Analysis & Synthesis Status : Successful - Tue May 27 16:40:16 2014
+Quartus II Version : 9.1 Build 222 10/21/2009 SJ Full Version
+Revision Name : alf_5x5
+Top-level Entity Name : alf_5x5
+Family : Stratix IV
+Logic utilization : N/A
+    Combinational ALUTs : 107
+    Memory ALUTs : 0
+    Dedicated logic registers : 415
+Total registers : 415
+Total pins : 244
+Total virtual pins : 0
+Total block memory bits : 0
+DSP block 18-bit elements : 10
+Total GXB Receiver Channel PCS : 0
+Total GXB Receiver Channel PMA : 0
+Total GXB Transmitter Channel PCS : 0
+Total GXB Transmitter Channel PMA : 0
+Total PLLs : 0
+Total DLLs : 0

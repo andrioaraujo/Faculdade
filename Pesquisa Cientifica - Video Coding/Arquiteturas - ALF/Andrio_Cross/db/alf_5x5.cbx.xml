@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="alf_5x5">
+		<CBX_INST_ENTRY INSTANCE_NAME="|alf_5x5|altmult_add:Add14_rtl_2" CBX_FILE_NAME="mult_add_na94.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|alf_5x5|altmult_add:Add16_rtl_1" CBX_FILE_NAME="mult_add_7eb4.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|alf_5x5|altmult_add:Add9_rtl_0" CBX_FILE_NAME="mult_add_2bm3.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

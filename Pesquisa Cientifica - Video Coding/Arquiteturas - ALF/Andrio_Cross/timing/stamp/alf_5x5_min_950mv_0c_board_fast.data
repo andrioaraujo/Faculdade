@@ -1,0 +1,6274 @@
+/*
+ Copyright (C) 1991-2009 Altera Corporation
+ Your use of Altera Corporation's design tools, logic functions 
+ and other software and tools, and its AMPP partner logic 
+ functions, and any output files from any of the foregoing 
+ (including device programming or simulation files), and any 
+ associated documentation or information are expressly subject 
+ to the terms and conditions of the Altera Program License 
+ Subscription Agreement, Altera MegaCore Function License 
+ Agreement, or other applicable license agreement, including, 
+ without limitation, that your use is for the sole purpose of 
+ programming logic devices manufactured by Altera and sold by 
+ Altera or its authorized distributors.  Please refer to the 
+ applicable agreement for further details.
+*/
+MODELDATA
+/*MODELDATA HEADER*/
+/*
+ This file contains Fast Corner delays for the design using part EP4SE530F43C2ES
+ with speed grade M, core voltage 0.95V, and temperature 0 Celsius
+
+*/
+DESIGN "alf_5x5";
+TIMESCALE "1ns";
+
+
+
+
+
+TIMINGDATA
+
+ARCDATA
+pos_A[0]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.496");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.496");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_A[1]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.097");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.097");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_A[2]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.550");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.550");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_A[3]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.164");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.164");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_A[4]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.455");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.455");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_A[5]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.079");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.079");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_A[6]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.490");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.490");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_A[7]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.947");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.947");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_A[8]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.145");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.145");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_A[9]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.278");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.278");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_B[0]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.413");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.413");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_B[1]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.356");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.356");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_B[2]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.646");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.646");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_B[3]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.685");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.685");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_B[4]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.307");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.307");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_B[5]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.592");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.592");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_B[6]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.576");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.576");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_B[7]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.121");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.121");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_B[8]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.546");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.546");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_B[9]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("3.151");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("3.151");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_C[0]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.885");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.885");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_C[1]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.048");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.048");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_C[2]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.420");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.420");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_C[3]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.886");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.886");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_C[4]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.149");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.149");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_C[5]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.067");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.067");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_C[6]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.324");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.324");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_C[7]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.512");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.512");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_C[8]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.714");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.714");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_C[9]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.249");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.249");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_D[0]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.800");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.800");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_D[1]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.523");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.523");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_D[2]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.621");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.621");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_D[3]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.660");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.660");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_D[4]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.793");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.793");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_D[5]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.756");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.756");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_D[6]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.776");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.776");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_D[7]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.408");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.408");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_D[8]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.827");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.827");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_D[9]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.333");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.333");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_E[0]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.274");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.274");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_E[1]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.685");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.685");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_E[2]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.595");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.595");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_E[3]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.208");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.208");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_E[4]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.857");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.857");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_E[5]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.096");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.096");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_E[6]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.645");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.645");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_E[7]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.864");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.864");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_E[8]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.619");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.619");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_E[9]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.646");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.646");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_F[0]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.747");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.747");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_F[1]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.597");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.597");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_F[2]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.402");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.402");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_F[3]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.423");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.423");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_F[4]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.621");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.621");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_F[5]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.078");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.078");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_F[6]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.048");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.048");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_F[7]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.766");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.766");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_F[8]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.362");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.362");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_F[9]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.507");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.507");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_G[0]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.407");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.407");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_G[1]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.429");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.429");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_G[2]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.604");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.604");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_G[3]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.242");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.242");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_G[4]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.357");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.357");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_G[5]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.036");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.036");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_G[6]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.934");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.934");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_G[7]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.923");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.923");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_G[8]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.701");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.701");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_G[9]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.940");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.940");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_H[0]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.530");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.530");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_H[1]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.815");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.815");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_H[2]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.876");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.876");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_H[3]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.782");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.782");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_H[4]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.916");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.916");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_H[5]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.866");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.866");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_H[6]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.796");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.796");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_H[7]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.379");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.379");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_H[8]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.800");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.800");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_H[9]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.410");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.410");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_I[0]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.132");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.132");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_I[1]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.305");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.305");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_I[2]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.526");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.526");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_I[3]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.094");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.094");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_I[4]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.768");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.768");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_I[5]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.327");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.327");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_I[6]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.990");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.990");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_I[7]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.681");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.681");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_I[8]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.895");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.895");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_I[9]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.808");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.808");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_J[0]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.627");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.627");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_J[1]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.424");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.424");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_J[2]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.510");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.510");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_J[3]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.233");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.233");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_J[4]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.661");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.661");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_J[5]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.243");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.243");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_J[6]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.489");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.489");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_J[7]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.380");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.380");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_J[8]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.589");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.589");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_J[9]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.691");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.691");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a0[0]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.508");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.508");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a0[1]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.380");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.380");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a0[2]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.057");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.057");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a0[3]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.201");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.201");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a0[4]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.342");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.342");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a0[5]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.252");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.252");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a0[6]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.113");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.113");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a0[7]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.505");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.505");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a1[0]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.153");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.153");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a1[1]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.173");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.173");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a1[2]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.022");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.022");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a1[3]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.472");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.472");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a1[4]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.579");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.579");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a1[5]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.079");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.079");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a1[6]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.133");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.133");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a1[7]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.104");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.104");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a2[0]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.310");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.310");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a2[1]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.118");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.118");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a2[2]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.228");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.228");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a2[3]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.274");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.274");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a2[4]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.753");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.753");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a2[5]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.147");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.147");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a2[6]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.141");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.141");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a2[7]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.122");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.122");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a3[0]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.031");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.031");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a3[1]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.909");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.909");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a3[2]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.990");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.990");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a3[3]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.264");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.264");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a3[4]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.517");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.517");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a3[5]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.398");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.398");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a3[6]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.637");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.637");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a3[7]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.675");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.675");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a4[0]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.354");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.354");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a4[1]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.903");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.903");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a4[2]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.968");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.968");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a4[3]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.039");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.039");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a4[4]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.639");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.639");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a4[5]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.386");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.386");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a4[6]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.051");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.051");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a4[7]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.025");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.025");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a5[0]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.451");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.451");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a5[1]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.261");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.261");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a5[2]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.556");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.556");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a5[3]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.123");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.123");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a5[4]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.704");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.704");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a5[5]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.673");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.673");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a5[6]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.090");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.090");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a5[7]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.984");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.984");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a6[0]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.564");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.564");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a6[1]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.359");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.359");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a6[2]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.293");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.293");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a6[3]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.792");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.792");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a6[4]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.548");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.548");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a6[5]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.583");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.583");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a6[6]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.626");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.626");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a6[7]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.759");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.759");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a7[0]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.532");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.532");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a7[1]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.772");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.772");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a7[2]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.084");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.084");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a7[3]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.519");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.519");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a7[4]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.597");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.597");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a7[5]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.603");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.603");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a7[6]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.664");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.664");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a7[7]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.687");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.687");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a8[0]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.734");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.734");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a8[1]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.333");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.333");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a8[2]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.015");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.015");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a8[3]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.379");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.379");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a8[4]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.617");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.617");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a8[5]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.545");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.545");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a8[6]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.633");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.633");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a8[7]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.946");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.946");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a9[0]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.753");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.753");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a9[1]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.486");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.486");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a9[2]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.222");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.222");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a9[3]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.174");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.174");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a9[4]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.717");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.717");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a9[5]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.199");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.199");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a9[6]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.578");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.578");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a9[7]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.847");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.847");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a10[0]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.770");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.770");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a10[1]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.265");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.265");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a10[2]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.132");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.132");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a10[3]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.619");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.619");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a10[4]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.693");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.693");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a10[5]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.401");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.401");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a10[6]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.555");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.555");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a10[7]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.649");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.649");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a11[0]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.551");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.551");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a11[1]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.037");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.037");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a11[2]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.396");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.396");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a11[3]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.743");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.743");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a11[4]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.549");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.549");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a11[5]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.776");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.776");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a11[6]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.465");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.465");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a11[7]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.659");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.659");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a12[0]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.657");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.657");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a12[1]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.674");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.674");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a12[2]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.685");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.685");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a12[3]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.633");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.633");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a12[4]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.519");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.519");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a12[5]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.434");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.434");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a12[6]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.424");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.424");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a12[7]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.100");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.100");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a13[0]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.656");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.656");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a13[1]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.067");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.067");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a13[2]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.887");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.887");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a13[3]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.664");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.664");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a13[4]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.116");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.116");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a13[5]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.579");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.579");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a13[6]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.821");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.821");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a13[7]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.640");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.640");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a14[0]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.250");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.250");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a14[1]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.803");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.803");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a14[2]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.503");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.503");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a14[3]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.379");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.379");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a14[4]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.387");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.387");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a14[5]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.939");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.939");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a14[6]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.724");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.724");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a14[7]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.360");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.360");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a15[0]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.614");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.614");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a15[1]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.567");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.567");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a15[2]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.890");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.890");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a15[3]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.219");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.219");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a15[4]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.590");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.590");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a15[5]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.586");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.586");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a15[6]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.622");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.622");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a15[7]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.461");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.461");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a16[0]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.552");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.552");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a16[1]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.898");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.898");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a16[2]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.989");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.989");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a16[3]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.609");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.609");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a16[4]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.682");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.682");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a16[5]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.648");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.648");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a16[6]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.962");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.962");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a16[7]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.514");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.514");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a17[0]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.795");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.795");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a17[1]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.963");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.963");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a17[2]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.859");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.859");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a17[3]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.943");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.943");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a17[4]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.552");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.552");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a17[5]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.404");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.404");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a17[6]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.651");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.651");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a17[7]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.751");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.751");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a18[0]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.936");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.936");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a18[1]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.776");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.776");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a18[2]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.583");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.583");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a18[3]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.793");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.793");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a18[4]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.854");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.854");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a18[5]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.860");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.860");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a18[6]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("2.376");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("2.376");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a18[7]__clk__setup:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("1.878");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("1.878");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_A[0]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.256");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.256");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_A[1]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-0.887");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-0.887");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_A[2]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.305");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.305");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_A[3]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.898");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.898");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_A[4]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.210");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.210");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_A[5]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.813");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.813");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_A[6]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.200");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.200");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_A[7]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.680");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.680");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_A[8]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-0.929");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-0.929");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_A[9]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.054");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.054");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_B[0]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.170");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.170");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_B[1]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.075");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.075");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_B[2]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.396");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.396");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_B[3]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.435");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.435");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_B[4]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.090");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.090");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_B[5]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.360");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.360");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_B[6]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.331");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.331");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_B[7]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.851");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.851");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_B[8]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.302");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.302");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_B[9]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.841");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.841");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_C[0]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.630");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.630");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_C[1]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.783");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.783");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_C[2]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.140");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.140");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_C[3]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.628");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.628");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_C[4]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.879");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.879");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_C[5]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.799");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.799");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_C[6]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.044");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.044");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_C[7]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.223");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.223");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_C[8]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.472");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.472");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_C[9]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.973");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.973");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_D[0]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.547");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.547");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_D[1]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.290");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.290");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_D[2]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.382");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.382");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_D[3]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.406");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.406");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_D[4]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.549");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.549");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_D[5]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.515");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.515");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_D[6]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.536");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.536");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_D[7]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.171");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.171");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_D[8]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.571");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.571");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_D[9]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.056");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.056");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_E[0]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.000");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.000");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_E[1]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.430");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.430");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_E[2]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.352");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.352");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_E[3]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.932");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.932");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_E[4]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.607");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.607");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_E[5]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.823");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.823");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_E[6]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.349");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.349");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_E[7]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.620");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.620");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_E[8]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.324");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.324");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_E[9]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.409");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.409");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_F[0]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.493");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.493");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_F[1]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.350");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.350");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_F[2]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.123");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.123");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_F[3]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.196");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.196");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_F[4]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.387");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.387");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_F[5]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.807");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.807");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_F[6]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.785");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.785");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_F[7]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.512");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.512");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_F[8]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.141");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.141");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_F[9]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.264");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.264");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_G[0]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.169");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.169");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_G[1]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.192");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.192");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_G[2]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.353");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.353");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_G[3]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.007");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.007");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_G[4]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.123");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.123");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_G[5]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.783");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.783");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_G[6]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.682");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.682");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_G[7]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.672");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.672");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_G[8]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.462");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.462");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_G[9]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.690");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.690");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_H[0]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.302");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.302");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_H[1]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.570");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.570");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_H[2]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.628");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.628");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_H[3]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.532");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.532");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_H[4]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.659");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.659");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_H[5]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.607");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.607");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_H[6]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.551");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.551");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_H[7]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.097");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.097");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_H[8]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.549");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.549");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_H[9]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.131");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.131");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_I[0]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.863");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.863");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_I[1]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.026");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.026");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_I[2]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.281");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.281");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_I[3]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.825");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.825");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_I[4]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.467");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.467");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_I[5]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.048");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.048");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_I[6]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.742");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.742");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_I[7]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.431");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.431");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_I[8]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.649");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.649");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_I[9]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.562");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.562");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_J[0]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.333");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.333");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_J[1]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.184");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.184");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_J[2]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.265");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.265");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_J[3]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.957");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.957");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_J[4]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.408");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.408");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_J[5]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.963");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.963");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_J[6]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.261");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.261");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_J[7]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.101");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.101");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_J[8]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.354");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.354");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_J[9]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.441");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.441");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a0[0]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.268");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.268");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a0[1]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.138");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.138");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a0[2]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-0.849");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-0.849");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a0[3]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-0.982");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-0.982");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a0[4]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.120");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.120");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a0[5]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.017");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.017");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a0[6]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-0.901");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-0.901");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a0[7]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.267");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.267");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a1[0]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.875");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.875");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a1[1]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.906");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.906");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a1[2]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-0.811");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-0.811");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a1[3]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.227");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.227");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a1[4]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.343");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.343");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a1[5]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-0.869");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-0.869");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a1[6]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-0.919");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-0.919");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a1[7]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-0.894");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-0.894");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a2[0]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.075");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.075");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a2[1]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.857");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.857");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a2[2]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.010");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.010");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a2[3]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.056");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.056");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a2[4]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.512");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.512");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a2[5]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-0.933");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-0.933");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a2[6]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-0.926");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-0.926");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a2[7]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-0.913");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-0.913");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a3[0]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.764");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.764");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a3[1]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.648");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.648");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a3[2]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.740");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.740");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a3[3]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.987");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.987");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a3[4]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.232");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.232");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a3[5]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.125");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.125");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a3[6]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.348");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.348");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a3[7]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.429");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.429");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a4[0]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.076");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.076");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a4[1]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.642");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.642");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a4[2]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.703");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.703");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a4[3]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.784");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.784");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a4[4]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.390");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.390");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a4[5]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.102");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.102");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a4[6]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.783");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.783");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a4[7]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.763");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.763");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a5[0]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.224");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.224");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a5[1]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.988");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.988");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a5[2]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.323");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.323");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a5[3]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.848");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.848");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a5[4]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.453");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.453");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a5[5]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.422");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.422");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a5[6]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.831");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.831");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a5[7]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.732");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.732");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a6[0]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.320");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.320");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a6[1]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.076");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.076");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a6[2]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.018");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.018");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a6[3]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.549");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.549");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a6[4]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.315");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.315");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a6[5]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.293");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.293");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a6[6]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.389");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.389");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a6[7]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.504");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.504");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a7[0]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.296");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.296");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a7[1]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.529");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.529");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a7[2]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.811");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.811");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a7[3]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.281");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.281");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a7[4]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.362");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.362");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a7[5]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.369");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.369");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a7[6]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.412");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.412");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a7[7]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.450");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.450");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a8[0]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.493");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.493");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a8[1]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.056");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.056");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a8[2]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.763");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.763");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a8[3]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.100");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.100");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a8[4]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.383");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.383");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a8[5]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.257");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.257");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a8[6]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.341");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.341");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a8[7]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.686");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.686");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a9[0]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.511");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.511");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a9[1]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.258");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.258");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a9[2]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.950");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.950");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a9[3]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.898");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.898");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a9[4]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.466");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.466");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a9[5]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.923");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.923");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a9[6]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.344");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.344");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a9[7]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.592");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.592");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a10[0]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.468");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.468");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a10[1]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.993");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.993");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a10[2]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.860");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.860");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a10[3]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.328");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.328");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a10[4]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.446");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.446");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a10[5]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.122");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.122");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a10[6]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.310");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.310");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a10[7]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.415");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.415");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a11[0]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.255");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.255");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a11[1]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.782");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.782");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a11[2]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.168");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.168");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a11[3]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.498");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.498");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a11[4]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.302");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.302");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a11[5]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.520");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.520");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a11[6]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.238");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.238");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a11[7]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.422");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.422");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a12[0]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.411");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.411");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a12[1]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.427");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.427");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a12[2]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.449");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.449");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a12[3]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.399");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.399");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a12[4]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.275");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.275");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a12[5]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.147");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.147");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a12[6]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.144");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.144");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a12[7]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.846");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.846");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a13[0]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.366");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.366");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a13[1]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.799");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.799");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a13[2]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.633");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.633");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a13[3]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.429");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.429");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a13[4]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.842");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.842");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a13[5]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.346");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.346");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a13[6]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.571");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.571");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a13[7]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.389");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.389");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a14[0]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.973");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.973");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a14[1]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.560");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.560");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a14[2]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.274");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.274");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a14[3]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.101");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.101");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a14[4]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.108");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.108");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a14[5]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.692");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.692");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a14[6]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.479");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.479");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a14[7]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.084");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.084");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a15[0]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.373");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.373");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a15[1]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.332");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.332");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a15[2]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.645");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.645");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a15[3]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.939");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.939");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a15[4]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.345");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.345");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a15[5]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.351");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.351");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a15[6]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.371");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.371");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a15[7]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.216");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.216");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a16[0]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.307");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.307");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a16[1]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.650");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.650");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a16[2]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.736");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.736");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a16[3]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.376");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.376");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a16[4]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.447");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.447");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a16[5]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.400");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.400");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a16[6]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.714");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.714");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a16[7]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.286");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.286");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a17[0]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.552");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.552");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a17[1]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.699");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.699");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a17[2]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.597");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.597");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a17[3]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.676");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.676");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a17[4]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.260");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.260");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a17[5]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.165");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.165");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a17[6]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.406");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.406");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a17[7]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.459");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.459");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a18[0]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.675");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.675");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a18[1]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.538");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.538");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a18[2]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.355");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.355");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a18[3]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.544");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.544");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a18[4]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.602");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.602");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a18[5]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.558");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.558");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a18[6]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-2.099");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-2.099");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_a18[7]__clk__hold:
+RISE_CONSTRAINT( scalar ) {
+VALUES ("-1.634");
+}
+
+FALL_CONSTRAINT( scalar ) {
+VALUES ("-1.634");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__s[0]__delay:
+CELL_RISE( scalar ) {
+VALUES ("8.397");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("8.397");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__s[1]__delay:
+CELL_RISE( scalar ) {
+VALUES ("9.038");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("9.038");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__s[2]__delay:
+CELL_RISE( scalar ) {
+VALUES ("9.274");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("9.274");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__s[3]__delay:
+CELL_RISE( scalar ) {
+VALUES ("8.484");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("8.484");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__s[4]__delay:
+CELL_RISE( scalar ) {
+VALUES ("8.956");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("8.956");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__s[5]__delay:
+CELL_RISE( scalar ) {
+VALUES ("8.675");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("8.675");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__s[6]__delay:
+CELL_RISE( scalar ) {
+VALUES ("8.729");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("8.729");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__s[7]__delay:
+CELL_RISE( scalar ) {
+VALUES ("8.493");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("8.493");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__s[8]__delay:
+CELL_RISE( scalar ) {
+VALUES ("9.141");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("9.141");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__s[9]__delay:
+CELL_RISE( scalar ) {
+VALUES ("8.444");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("8.444");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__s[10]__delay:
+CELL_RISE( scalar ) {
+VALUES ("9.242");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("9.242");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__s[11]__delay:
+CELL_RISE( scalar ) {
+VALUES ("9.787");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("9.787");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__s[12]__delay:
+CELL_RISE( scalar ) {
+VALUES ("8.885");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("8.885");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__s[13]__delay:
+CELL_RISE( scalar ) {
+VALUES ("8.848");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("8.848");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__s[14]__delay:
+CELL_RISE( scalar ) {
+VALUES ("8.802");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("8.802");
+}
+
+ENDARCDATA
+
+ARCDATA
+pos_clk__s[15]__delay:
+CELL_RISE( scalar ) {
+VALUES ("8.824");
+}
+
+CELL_FALL( scalar ) {
+VALUES ("8.824");
+}
+
+ENDARCDATA
+
+ENDTIMINGDATA
+
+ENDMODELDATA

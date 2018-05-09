@@ -1,0 +1,29 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.all;
+USE IEEE.std_logic_arith.all;
+USE IEEE.std_logic_signed.all;
+USE IEEE.numeric_std.all;
+
+entity fastIDCT is
+	port (	
+		--ENTRADAS	
+		IN0, IN1, IN2, IN3: in std_logic_vector(16 downto 0);
+		CLOCK : in std_logic;
+		--SAIDA
+		OUT0, OUT1, OUT2, OUT3: out std_logic_vector(7 downto 0)
+		);
+end fastIDCT;
+architecture behavior of fastIDCT is
+	signal IN0_S, IN1_S, IN2_S, IN3_S : std_logic_vector(15 downto 0);
+	signal IN0_BUFF, IN1_BUFF, IN2_BUFF, IN3_BUFF : std_logic_vector(16 downto 0);
+	
+	PROCESS (CLK)
+		begin
+		IN0_BUFF <= IN0;
+		IN1_BUFF <= IN1;
+		IN2_BUFF <= IN2;
+		IN3_BUFF <= IN3;
+	
+	end process;
+	
+end behavior;

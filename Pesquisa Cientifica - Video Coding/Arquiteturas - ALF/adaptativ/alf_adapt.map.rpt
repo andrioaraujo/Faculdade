@@ -1,0 +1,751 @@
+Analysis & Synthesis report for alf_adapt
+Fri Nov 15 21:01:21 2013
+Quartus II 64-Bit Version 12.1 Build 177 11/07/2012 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. Analysis & Synthesis DSP Block Usage Summary
+  9. Registers Removed During Synthesis
+ 10. Removed Registers Triggering Further Register Optimizations
+ 11. General Register Statistics
+ 12. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 13. Parameter Settings for User Entity Instance: Top-level Entity: |alf_adapt
+ 14. Parameter Settings for User Entity Instance: alf_5x5_pcarc:alf_5x5_para_carcaca
+ 15. Parameter Settings for User Entity Instance: alf_7x7_carcaca:alf_7x7
+ 16. Parameter Settings for User Entity Instance: alf_9x9_carcaca:alf_9x9
+ 17. Parameter Settings for User Entity Instance: reg:reg_5x5
+ 18. Parameter Settings for User Entity Instance: reg:reg_7x7
+ 19. Parameter Settings for User Entity Instance: reg:reg_9x9
+ 20. Parameter Settings for User Entity Instance: reg:reg_5x5_2
+ 21. Parameter Settings for User Entity Instance: reg:reg_5x5_3
+ 22. Parameter Settings for User Entity Instance: reg:reg_7x7_1
+ 23. Parameter Settings for User Entity Instance: reg:reg_7x7_2
+ 24. Parameter Settings for User Entity Instance: reg:reg_9x9_1
+ 25. Parameter Settings for User Entity Instance: reg:reg_9x9_2
+ 26. Parameter Settings for User Entity Instance: mux41:mux
+ 27. Parameter Settings for User Entity Instance: reg:reg2
+ 28. Parameter Settings for User Entity Instance: reg:reg3
+ 29. Parameter Settings for User Entity Instance: clipping:clip
+ 30. Port Connectivity Checks: "reg:reg2"
+ 31. Port Connectivity Checks: "mux41:mux"
+ 32. Port Connectivity Checks: "alf_5x5_pcarc:alf_5x5_para_carcaca"
+ 33. Elapsed Time Per Partition
+ 34. Analysis & Synthesis Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2012 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-----------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                ;
++---------------------------------+-------------------------------------------+
+; Analysis & Synthesis Status     ; Successful - Fri Nov 15 21:01:21 2013     ;
+; Quartus II 64-Bit Version       ; 12.1 Build 177 11/07/2012 SJ Full Version ;
+; Revision Name                   ; alf_adapt                                 ;
+; Top-level Entity Name           ; alf_adapt                                 ;
+; Family                          ; Stratix V                                 ;
+; Logic utilization (in ALMs)     ; N/A                                       ;
+; Total registers                 ; 1770                                      ;
+; Total pins                      ; 524                                       ;
+; Total virtual pins              ; 0                                         ;
+; Total block memory bits         ; 0                                         ;
+; Total DSP Blocks                ; 17                                        ;
+; Total HSSI STD RX PCSs          ; 0                                         ;
+; Total HSSI 10G RX PCSs          ; 0                                         ;
+; Total HSSI GEN3 RX PCSs         ; 0                                         ;
+; Total HSSI PMA RX Deserializers ; 0                                         ;
+; Total HSSI STD TX PCSs          ; 0                                         ;
+; Total HSSI 10G TX PCSs          ; 0                                         ;
+; Total HSSI GEN3 TX PCSs         ; 0                                         ;
+; Total HSSI PMA TX Serializers   ; 0                                         ;
+; Total HSSI PIPE GEN1_2s         ; 0                                         ;
+; Total HSSI GEN3s                ; 0                                         ;
+; Total PLLs                      ; 0                                         ;
+; Total DLLs                      ; 0                                         ;
++---------------------------------+-------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                             ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                          ; Setting            ; Default Value      ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                          ; 5SGXMABN3F45I4     ;                    ;
+; Top-level entity name                                                           ; alf_adapt          ; alf_adapt          ;
+; Family name                                                                     ; Stratix V          ; Cyclone IV GX      ;
+; Use smart compilation                                                           ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation      ; On                 ; On                 ;
+; Enable compact report table                                                     ; Off                ; Off                ;
+; Restructure Multiplexers                                                        ; Auto               ; Auto               ;
+; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                ; Off                ;
+; Create Debugging Nodes for IP Cores                                             ; Off                ; Off                ;
+; Preserve fewer node names                                                       ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                       ; Off                ; Off                ;
+; Verilog Version                                                                 ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                                    ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                        ; Auto               ; Auto               ;
+; Safe State Machine                                                              ; Off                ; Off                ;
+; Extract Verilog State Machines                                                  ; On                 ; On                 ;
+; Extract VHDL State Machines                                                     ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                               ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                      ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                                  ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                         ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                       ; On                 ; On                 ;
+; Parallel Synthesis                                                              ; On                 ; On                 ;
+; DSP Block Balancing                                                             ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                              ; On                 ; On                 ;
+; Power-Up Don't Care                                                             ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                                    ; Off                ; Off                ;
+; Remove Duplicate Registers                                                      ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                            ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                          ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                           ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                       ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                            ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                             ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                                  ; Off                ; Off                ;
+; Optimization Technique                                                          ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                              ; 70                 ; 70                 ;
+; Auto Carry Chains                                                               ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                            ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                           ; Off                ; Off                ;
+; Auto ROM Replacement                                                            ; On                 ; On                 ;
+; Auto RAM Replacement                                                            ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                      ; On                 ; On                 ;
+; Auto Shift Register Replacement                                                 ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                                 ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                                   ; On                 ; On                 ;
+; Strict RAM Replacement                                                          ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                               ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                           ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                                   ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                             ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                               ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                         ; On                 ; On                 ;
+; Report Parameter Settings                                                       ; On                 ; On                 ;
+; Report Source Assignments                                                       ; On                 ; On                 ;
+; Report Connectivity Checks                                                      ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                              ; Off                ; Off                ;
+; Synchronization Register Chain Length                                           ; 3                  ; 3                  ;
+; PowerPlay Power Optimization                                                    ; Normal compilation ; Normal compilation ;
+; HDL message level                                                               ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                                 ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                        ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                              ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                       ; 100                ; 100                ;
+; Clock MUX Protection                                                            ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                     ; Off                ; Off                ;
+; Block Design Naming                                                             ; Auto               ; Auto               ;
+; SDC constraint protection                                                       ; Off                ; Off                ;
+; Synthesis Effort                                                                ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal                    ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                            ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                              ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                     ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                          ; On                 ; On                 ;
+; Synthesis Seed                                                                  ; 1                  ; 1                  ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 4           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     1 processor            ; 100.0%      ;
+;     2-4 processors         ; < 0.1%      ;
+;     5-8 processors         ;   0.0%      ;
++----------------------------+-------------+
+
+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                      ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type       ; File Name with Absolute Path                                                               ; Library ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------+---------+
+; reg.vhd                          ; yes             ; User VHDL File  ; C:/Users/Fabiane/Dropbox/Artigos HEVC e filtros/ALF/Arquiteturas/adapt/reg.vhd             ;         ;
+; mux41.vhd                        ; yes             ; User VHDL File  ; C:/Users/Fabiane/Dropbox/Artigos HEVC e filtros/ALF/Arquiteturas/adapt/mux41.vhd           ;         ;
+; clipping.vhd                     ; yes             ; User VHDL File  ; C:/Users/Fabiane/Dropbox/Artigos HEVC e filtros/ALF/Arquiteturas/adapt/clipping.vhd        ;         ;
+; alf_9x9_carcaca.vhd              ; yes             ; User VHDL File  ; C:/Users/Fabiane/Dropbox/Artigos HEVC e filtros/ALF/Arquiteturas/adapt/alf_9x9_carcaca.vhd ;         ;
+; alf_7x7_carcaca.vhd              ; yes             ; User VHDL File  ; C:/Users/Fabiane/Dropbox/Artigos HEVC e filtros/ALF/Arquiteturas/adapt/alf_7x7_carcaca.vhd ;         ;
+; alf_5x5_pcarc.vhd                ; yes             ; User VHDL File  ; C:/Users/Fabiane/Dropbox/Artigos HEVC e filtros/ALF/Arquiteturas/adapt/alf_5x5_pcarc.vhd   ;         ;
+; alf_adapt.vhd                    ; yes             ; User VHDL File  ; C:/Users/Fabiane/Dropbox/Artigos HEVC e filtros/ALF/Arquiteturas/adapt/alf_adapt.vhd       ;         ;
++----------------------------------+-----------------+-----------------+--------------------------------------------------------------------------------------------+---------+
+
+
++-----------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary         ;
++---------------------------------------------+-------+
+; Resource                                    ; Usage ;
++---------------------------------------------+-------+
+; Estimate of Logic utilization (ALMs needed) ; 889   ;
+;                                             ;       ;
+; Combinational ALUT usage for logic          ; 549   ;
+;     -- 7 input functions                    ; 0     ;
+;     -- 6 input functions                    ; 0     ;
+;     -- 5 input functions                    ; 19    ;
+;     -- 4 input functions                    ; 1     ;
+;     -- <=3 input functions                  ; 529   ;
+;                                             ;       ;
+; Dedicated logic registers                   ; 1770  ;
+;                                             ;       ;
+; I/O pins                                    ; 524   ;
+; Total DSP Blocks                            ; 17    ;
+; Maximum fan-out                             ; 1770  ;
+; Total fan-out                               ; 6267  ;
+; Average fan-out                             ; 1.85  ;
++---------------------------------------------+-------+
+
+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                              ;
++-----------------------------------------+-------------------+--------------+-------------------+------------+------+--------------+-----------------------------------------------+--------------+
+; Compilation Hierarchy Node              ; LC Combinationals ; LC Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                           ; Library Name ;
++-----------------------------------------+-------------------+--------------+-------------------+------------+------+--------------+-----------------------------------------------+--------------+
+; |alf_adapt                              ; 549 (66)          ; 1770 (0)     ; 0                 ; 17         ; 524  ; 0            ; |alf_adapt                                    ;              ;
+;    |alf_5x5_pcarc:alf_5x5_para_carcaca| ; 99 (99)           ; 474 (474)    ; 0                 ; 4          ; 0    ; 0            ; |alf_adapt|alf_5x5_pcarc:alf_5x5_para_carcaca ;              ;
+;    |alf_7x7_carcaca:alf_7x7|            ; 162 (162)         ; 496 (496)    ; 0                 ; 6          ; 0    ; 0            ; |alf_adapt|alf_7x7_carcaca:alf_7x7            ;              ;
+;    |alf_9x9_carcaca:alf_9x9|            ; 193 (193)         ; 582 (582)    ; 0                 ; 7          ; 0    ; 0            ; |alf_adapt|alf_9x9_carcaca:alf_9x9            ;              ;
+;    |clipping:clip|                      ; 10 (10)           ; 0 (0)        ; 0                 ; 0          ; 0    ; 0            ; |alf_adapt|clipping:clip                      ;              ;
+;    |reg:reg2|                           ; 19 (19)           ; 18 (18)      ; 0                 ; 0          ; 0    ; 0            ; |alf_adapt|reg:reg2                           ;              ;
+;    |reg:reg3|                           ; 0 (0)             ; 17 (17)      ; 0                 ; 0          ; 0    ; 0            ; |alf_adapt|reg:reg3                           ;              ;
+;    |reg:reg_5x5_2|                      ; 0 (0)             ; 16 (16)      ; 0                 ; 0          ; 0    ; 0            ; |alf_adapt|reg:reg_5x5_2                      ;              ;
+;    |reg:reg_5x5_3|                      ; 0 (0)             ; 16 (16)      ; 0                 ; 0          ; 0    ; 0            ; |alf_adapt|reg:reg_5x5_3                      ;              ;
+;    |reg:reg_5x5|                        ; 0 (0)             ; 23 (23)      ; 0                 ; 0          ; 0    ; 0            ; |alf_adapt|reg:reg_5x5                        ;              ;
+;    |reg:reg_7x7_1|                      ; 0 (0)             ; 24 (24)      ; 0                 ; 0          ; 0    ; 0            ; |alf_adapt|reg:reg_7x7_1                      ;              ;
+;    |reg:reg_7x7_2|                      ; 0 (0)             ; 17 (17)      ; 0                 ; 0          ; 0    ; 0            ; |alf_adapt|reg:reg_7x7_2                      ;              ;
+;    |reg:reg_7x7|                        ; 0 (0)             ; 23 (23)      ; 0                 ; 0          ; 0    ; 0            ; |alf_adapt|reg:reg_7x7                        ;              ;
+;    |reg:reg_9x9_1|                      ; 0 (0)             ; 23 (23)      ; 0                 ; 0          ; 0    ; 0            ; |alf_adapt|reg:reg_9x9_1                      ;              ;
+;    |reg:reg_9x9_2|                      ; 0 (0)             ; 18 (18)      ; 0                 ; 0          ; 0    ; 0            ; |alf_adapt|reg:reg_9x9_2                      ;              ;
+;    |reg:reg_9x9|                        ; 0 (0)             ; 23 (23)      ; 0                 ; 0          ; 0    ; 0            ; |alf_adapt|reg:reg_9x9                        ;              ;
++-----------------------------------------+-------------------+--------------+-------------------+------------+------+--------------+-----------------------------------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++-------------------------------------------------------------------------------+
+; Analysis & Synthesis DSP Block Usage Summary                                  ;
++-----------------------+-------------+---------------------+-------------------+
+; Statistic             ; Number Used ; Available per Block ; Maximum Available ;
++-----------------------+-------------+---------------------+-------------------+
+; Independent 18x18     ; 14          ; 1.00                ; --                ;
+; Sum of four 18x18     ; 1           ; 0.50                ; --                ;
+; Sum of two 18x18      ; 1           ; 1.00                ; --                ;
+; DSP Block             ; 17          ; --                  ; --                ;
+; DSP 18-bit Element    ; 20          ; 2.00                ; --                ;
+; Signed Multiplier     ; 13          ; --                  ; --                ;
+; Mixed Sign Multiplier ; 7           ; --                  ; --                ;
++-----------------------+-------------+---------------------+-------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------+
+; Registers Removed During Synthesis                                                                                      ;
++----------------------------------------------------------+--------------------------------------------------------------+
+; Register name                                            ; Reason for Removal                                           ;
++----------------------------------------------------------+--------------------------------------------------------------+
+; alf_9x9_carcaca:alf_9x9|a38_t[8,9]                       ; Stuck at GND due to stuck port data_in                       ;
+; alf_9x9_carcaca:alf_9x9|a37_t[8,9]                       ; Stuck at GND due to stuck port data_in                       ;
+; alf_9x9_carcaca:alf_9x9|a36_t[8,9]                       ; Stuck at GND due to stuck port data_in                       ;
+; alf_9x9_carcaca:alf_9x9|a35_t[8,9]                       ; Stuck at GND due to stuck port data_in                       ;
+; alf_9x9_carcaca:alf_9x9|a34_t[8,9]                       ; Stuck at GND due to stuck port data_in                       ;
+; alf_9x9_carcaca:alf_9x9|a33_t[8,9]                       ; Stuck at GND due to stuck port data_in                       ;
+; alf_9x9_carcaca:alf_9x9|a32_t[8,9]                       ; Stuck at GND due to stuck port data_in                       ;
+; alf_9x9_carcaca:alf_9x9|a31_t[8,9]                       ; Stuck at GND due to stuck port data_in                       ;
+; alf_9x9_carcaca:alf_9x9|a30_t[8,9]                       ; Stuck at GND due to stuck port data_in                       ;
+; alf_9x9_carcaca:alf_9x9|a29_t[8,9]                       ; Stuck at GND due to stuck port data_in                       ;
+; alf_9x9_carcaca:alf_9x9|a28_t[8,9]                       ; Stuck at GND due to stuck port data_in                       ;
+; alf_9x9_carcaca:alf_9x9|a27_t[8,9]                       ; Stuck at GND due to stuck port data_in                       ;
+; alf_9x9_carcaca:alf_9x9|a26_t[8,9]                       ; Stuck at GND due to stuck port data_in                       ;
+; alf_9x9_carcaca:alf_9x9|a25_t[8,9]                       ; Stuck at GND due to stuck port data_in                       ;
+; alf_7x7_carcaca:alf_7x7|a24_t[8,9]                       ; Stuck at GND due to stuck port data_in                       ;
+; alf_7x7_carcaca:alf_7x7|a23_t[8,9]                       ; Stuck at GND due to stuck port data_in                       ;
+; alf_7x7_carcaca:alf_7x7|a22_t[8,9]                       ; Stuck at GND due to stuck port data_in                       ;
+; alf_7x7_carcaca:alf_7x7|a21_t[8,9]                       ; Stuck at GND due to stuck port data_in                       ;
+; alf_7x7_carcaca:alf_7x7|a20_t[8,9]                       ; Stuck at GND due to stuck port data_in                       ;
+; alf_7x7_carcaca:alf_7x7|a19_t[8,9]                       ; Stuck at GND due to stuck port data_in                       ;
+; alf_7x7_carcaca:alf_7x7|a18_t[8,9]                       ; Stuck at GND due to stuck port data_in                       ;
+; alf_7x7_carcaca:alf_7x7|a17_t[8,9]                       ; Stuck at GND due to stuck port data_in                       ;
+; alf_7x7_carcaca:alf_7x7|a16_t[8,9]                       ; Stuck at GND due to stuck port data_in                       ;
+; alf_7x7_carcaca:alf_7x7|a15_t[8,9]                       ; Stuck at GND due to stuck port data_in                       ;
+; alf_7x7_carcaca:alf_7x7|a14_t[8,9]                       ; Stuck at GND due to stuck port data_in                       ;
+; alf_7x7_carcaca:alf_7x7|a13_t[8,9]                       ; Stuck at GND due to stuck port data_in                       ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|temp17_t[9]           ; Stuck at GND due to stuck port data_in                       ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|temp16_t[9]           ; Stuck at GND due to stuck port data_in                       ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|temp15_t[9]           ; Stuck at GND due to stuck port data_in                       ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|temp14_t[9]           ; Stuck at GND due to stuck port data_in                       ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|temp13_t[9]           ; Stuck at GND due to stuck port data_in                       ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|temp12_t[9]           ; Stuck at GND due to stuck port data_in                       ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|temp11_t[8,9]         ; Stuck at GND due to stuck port data_in                       ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|temp21_t[0..19]       ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|temp22_t[0..19]       ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|temp32_t[0..20]       ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|temp23_t[0..19]       ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|temp24_t[0..19]       ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|temp33_t[0..20]       ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|temp25_t[0..19]       ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|temp26_t[0..19]       ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add6~mac_pl[0][21]    ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add6~mac_pl[0][22]    ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add6~mac_pl[0][23]    ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add6~mac_pl[0][24]    ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add6~mac_pl[0][25]    ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add6~mac_pl[0][26]    ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add6~mac_pl[0][27]    ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add6~mac_pl[0][28]    ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add6~mac_pl[0][29]    ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add6~mac_pl[0][30]    ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add6~mac_pl[0][31]    ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add6~mac_pl[0][32]    ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add6~mac_pl[0][33]    ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add6~mac_pl[0][34]    ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add6~mac_pl[0][35]    ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add6~mac_pl[0][36]    ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[1][22] ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[0][22] ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[1][23] ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[0][23] ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[1][24] ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[0][24] ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[1][25] ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[0][25] ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[1][26] ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[0][26] ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[1][27] ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[0][27] ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[1][28] ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[0][28] ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[1][29] ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[0][29] ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[1][30] ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[0][30] ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[1][31] ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[0][31] ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[1][32] ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[0][32] ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[1][33] ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[0][33] ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[1][34] ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[0][34] ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[1][35] ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[0][35] ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[1][36] ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[0][36] ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[1][37] ; Lost fanout                                                  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[0][37] ; Lost fanout                                                  ;
+; alf_9x9_carcaca:alf_9x9|temp17_t[9]                      ; Stuck at GND due to stuck port data_in                       ;
+; alf_9x9_carcaca:alf_9x9|temp16_t[9]                      ; Stuck at GND due to stuck port data_in                       ;
+; alf_9x9_carcaca:alf_9x9|temp15_t[9]                      ; Stuck at GND due to stuck port data_in                       ;
+; alf_9x9_carcaca:alf_9x9|temp14_t[9]                      ; Stuck at GND due to stuck port data_in                       ;
+; alf_9x9_carcaca:alf_9x9|temp13_t[9]                      ; Stuck at GND due to stuck port data_in                       ;
+; alf_9x9_carcaca:alf_9x9|temp12_t[9]                      ; Stuck at GND due to stuck port data_in                       ;
+; alf_9x9_carcaca:alf_9x9|temp11_t[9]                      ; Stuck at GND due to stuck port data_in                       ;
+; alf_7x7_carcaca:alf_7x7|temp16_t[9]                      ; Stuck at GND due to stuck port data_in                       ;
+; alf_7x7_carcaca:alf_7x7|temp15_t[9]                      ; Stuck at GND due to stuck port data_in                       ;
+; alf_7x7_carcaca:alf_7x7|temp14_t[9]                      ; Stuck at GND due to stuck port data_in                       ;
+; alf_7x7_carcaca:alf_7x7|temp13_t[9]                      ; Stuck at GND due to stuck port data_in                       ;
+; alf_7x7_carcaca:alf_7x7|temp12_t[9]                      ; Stuck at GND due to stuck port data_in                       ;
+; alf_7x7_carcaca:alf_7x7|temp11_t[9]                      ; Stuck at GND due to stuck port data_in                       ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|temp27_t[19]          ; Merged with alf_5x5_pcarc:alf_5x5_para_carcaca|temp27_t[18]  ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|temp27_t2[19]         ; Merged with alf_5x5_pcarc:alf_5x5_para_carcaca|temp27_t2[18] ;
+; Total Number of Removed Registers = 285                  ;                                                              ;
++----------------------------------------------------------+--------------------------------------------------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------+
+; Removed Registers Triggering Further Register Optimizations                                                                                     ;
++----------------------------------------------------------+---------------------------+----------------------------------------------------------+
+; Register name                                            ; Reason for Removal        ; Registers Removed due to This Register                   ;
++----------------------------------------------------------+---------------------------+----------------------------------------------------------+
+; alf_5x5_pcarc:alf_5x5_para_carcaca|temp32_t[20]          ; Lost Fanouts              ; alf_5x5_pcarc:alf_5x5_para_carcaca|temp23_t[19],         ;
+;                                                          ;                           ; alf_5x5_pcarc:alf_5x5_para_carcaca|temp23_t[18],         ;
+;                                                          ;                           ; alf_5x5_pcarc:alf_5x5_para_carcaca|temp23_t[17],         ;
+;                                                          ;                           ; alf_5x5_pcarc:alf_5x5_para_carcaca|temp23_t[16],         ;
+;                                                          ;                           ; alf_5x5_pcarc:alf_5x5_para_carcaca|temp23_t[15],         ;
+;                                                          ;                           ; alf_5x5_pcarc:alf_5x5_para_carcaca|temp23_t[14],         ;
+;                                                          ;                           ; alf_5x5_pcarc:alf_5x5_para_carcaca|temp23_t[13]          ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|temp33_t[20]          ; Lost Fanouts              ; alf_5x5_pcarc:alf_5x5_para_carcaca|temp25_t[19],         ;
+;                                                          ;                           ; alf_5x5_pcarc:alf_5x5_para_carcaca|temp25_t[18],         ;
+;                                                          ;                           ; alf_5x5_pcarc:alf_5x5_para_carcaca|temp25_t[17],         ;
+;                                                          ;                           ; alf_5x5_pcarc:alf_5x5_para_carcaca|temp25_t[16],         ;
+;                                                          ;                           ; alf_5x5_pcarc:alf_5x5_para_carcaca|temp25_t[15],         ;
+;                                                          ;                           ; alf_5x5_pcarc:alf_5x5_para_carcaca|temp25_t[14],         ;
+;                                                          ;                           ; alf_5x5_pcarc:alf_5x5_para_carcaca|temp25_t[13]          ;
+; alf_9x9_carcaca:alf_9x9|a38_t[8]                         ; Stuck at GND              ; alf_9x9_carcaca:alf_9x9|temp17_t[9]                      ;
+;                                                          ; due to stuck port data_in ;                                                          ;
+; alf_9x9_carcaca:alf_9x9|a36_t[8]                         ; Stuck at GND              ; alf_9x9_carcaca:alf_9x9|temp16_t[9]                      ;
+;                                                          ; due to stuck port data_in ;                                                          ;
+; alf_9x9_carcaca:alf_9x9|a34_t[8]                         ; Stuck at GND              ; alf_9x9_carcaca:alf_9x9|temp15_t[9]                      ;
+;                                                          ; due to stuck port data_in ;                                                          ;
+; alf_9x9_carcaca:alf_9x9|a32_t[8]                         ; Stuck at GND              ; alf_9x9_carcaca:alf_9x9|temp14_t[9]                      ;
+;                                                          ; due to stuck port data_in ;                                                          ;
+; alf_9x9_carcaca:alf_9x9|a30_t[8]                         ; Stuck at GND              ; alf_9x9_carcaca:alf_9x9|temp13_t[9]                      ;
+;                                                          ; due to stuck port data_in ;                                                          ;
+; alf_9x9_carcaca:alf_9x9|a28_t[8]                         ; Stuck at GND              ; alf_9x9_carcaca:alf_9x9|temp12_t[9]                      ;
+;                                                          ; due to stuck port data_in ;                                                          ;
+; alf_9x9_carcaca:alf_9x9|a26_t[8]                         ; Stuck at GND              ; alf_9x9_carcaca:alf_9x9|temp11_t[9]                      ;
+;                                                          ; due to stuck port data_in ;                                                          ;
+; alf_7x7_carcaca:alf_7x7|a24_t[8]                         ; Stuck at GND              ; alf_7x7_carcaca:alf_7x7|temp16_t[9]                      ;
+;                                                          ; due to stuck port data_in ;                                                          ;
+; alf_7x7_carcaca:alf_7x7|a22_t[8]                         ; Stuck at GND              ; alf_7x7_carcaca:alf_7x7|temp15_t[9]                      ;
+;                                                          ; due to stuck port data_in ;                                                          ;
+; alf_7x7_carcaca:alf_7x7|a20_t[8]                         ; Stuck at GND              ; alf_7x7_carcaca:alf_7x7|temp14_t[9]                      ;
+;                                                          ; due to stuck port data_in ;                                                          ;
+; alf_7x7_carcaca:alf_7x7|a18_t[8]                         ; Stuck at GND              ; alf_7x7_carcaca:alf_7x7|temp13_t[9]                      ;
+;                                                          ; due to stuck port data_in ;                                                          ;
+; alf_7x7_carcaca:alf_7x7|a16_t[8]                         ; Stuck at GND              ; alf_7x7_carcaca:alf_7x7|temp12_t[9]                      ;
+;                                                          ; due to stuck port data_in ;                                                          ;
+; alf_7x7_carcaca:alf_7x7|a14_t[8]                         ; Stuck at GND              ; alf_7x7_carcaca:alf_7x7|temp11_t[9]                      ;
+;                                                          ; due to stuck port data_in ;                                                          ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[1][22] ; Lost Fanouts              ; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[0][22] ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[1][23] ; Lost Fanouts              ; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[0][23] ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[1][24] ; Lost Fanouts              ; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[0][24] ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[1][25] ; Lost Fanouts              ; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[0][25] ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[1][26] ; Lost Fanouts              ; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[0][26] ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[1][27] ; Lost Fanouts              ; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[0][27] ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[1][28] ; Lost Fanouts              ; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[0][28] ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[1][29] ; Lost Fanouts              ; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[0][29] ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[1][30] ; Lost Fanouts              ; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[0][30] ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[1][31] ; Lost Fanouts              ; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[0][31] ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[1][32] ; Lost Fanouts              ; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[0][32] ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[1][33] ; Lost Fanouts              ; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[0][33] ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[1][34] ; Lost Fanouts              ; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[0][34] ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[1][35] ; Lost Fanouts              ; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[0][35] ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[1][36] ; Lost Fanouts              ; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[0][36] ;
+; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[1][37] ; Lost Fanouts              ; alf_5x5_pcarc:alf_5x5_para_carcaca|Add10~mac_1_pl[0][37] ;
++----------------------------------------------------------+---------------------------+----------------------------------------------------------+
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 1770  ;
+; Number of registers using Synchronous Clear  ; 218   ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                  ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output        ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------+
+; 5:1                ; 18 bits   ; 54 LEs        ; 36 LEs               ; 18 LEs                 ; Yes        ; |alf_adapt|reg:reg2|dado[8]       ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; No         ; |alf_adapt|clipping:clip|saida[1] ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-----------------------------------+
+
+
++---------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Top-level Entity: |alf_adapt ;
++----------------+-------+--------------------------------------------------+
+; Parameter Name ; Value ; Type                                             ;
++----------------+-------+--------------------------------------------------+
+; n              ; 8     ; Signed Integer                                   ;
++----------------+-------+--------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++---------------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: alf_5x5_pcarc:alf_5x5_para_carcaca ;
++----------------+-------+--------------------------------------------------------+
+; Parameter Name ; Value ; Type                                                   ;
++----------------+-------+--------------------------------------------------------+
+; n              ; 8     ; Signed Integer                                         ;
++----------------+-------+--------------------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: alf_7x7_carcaca:alf_7x7 ;
++----------------+-------+---------------------------------------------+
+; Parameter Name ; Value ; Type                                        ;
++----------------+-------+---------------------------------------------+
+; n              ; 8     ; Signed Integer                              ;
++----------------+-------+---------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: alf_9x9_carcaca:alf_9x9 ;
++----------------+-------+---------------------------------------------+
+; Parameter Name ; Value ; Type                                        ;
++----------------+-------+---------------------------------------------+
+; n              ; 8     ; Signed Integer                              ;
++----------------+-------+---------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: reg:reg_5x5 ;
++----------------+-------+---------------------------------+
+; Parameter Name ; Value ; Type                            ;
++----------------+-------+---------------------------------+
+; n              ; 23    ; Signed Integer                  ;
++----------------+-------+---------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: reg:reg_7x7 ;
++----------------+-------+---------------------------------+
+; Parameter Name ; Value ; Type                            ;
++----------------+-------+---------------------------------+
+; n              ; 23    ; Signed Integer                  ;
++----------------+-------+---------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------+
+; Parameter Settings for User Entity Instance: reg:reg_9x9 ;
++----------------+-------+---------------------------------+
+; Parameter Name ; Value ; Type                            ;
++----------------+-------+---------------------------------+
+; n              ; 23    ; Signed Integer                  ;
++----------------+-------+---------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: reg:reg_5x5_2 ;
++----------------+-------+-----------------------------------+
+; Parameter Name ; Value ; Type                              ;
++----------------+-------+-----------------------------------+
+; n              ; 23    ; Signed Integer                    ;
++----------------+-------+-----------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: reg:reg_5x5_3 ;
++----------------+-------+-----------------------------------+
+; Parameter Name ; Value ; Type                              ;
++----------------+-------+-----------------------------------+
+; n              ; 23    ; Signed Integer                    ;
++----------------+-------+-----------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: reg:reg_7x7_1 ;
++----------------+-------+-----------------------------------+
+; Parameter Name ; Value ; Type                              ;
++----------------+-------+-----------------------------------+
+; n              ; 24    ; Signed Integer                    ;
++----------------+-------+-----------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: reg:reg_7x7_2 ;
++----------------+-------+-----------------------------------+
+; Parameter Name ; Value ; Type                              ;
++----------------+-------+-----------------------------------+
+; n              ; 24    ; Signed Integer                    ;
++----------------+-------+-----------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: reg:reg_9x9_1 ;
++----------------+-------+-----------------------------------+
+; Parameter Name ; Value ; Type                              ;
++----------------+-------+-----------------------------------+
+; n              ; 23    ; Signed Integer                    ;
++----------------+-------+-----------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: reg:reg_9x9_2 ;
++----------------+-------+-----------------------------------+
+; Parameter Name ; Value ; Type                              ;
++----------------+-------+-----------------------------------+
+; n              ; 25    ; Signed Integer                    ;
++----------------+-------+-----------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++--------------------------------------------------------+
+; Parameter Settings for User Entity Instance: mux41:mux ;
++----------------+-------+-------------------------------+
+; Parameter Name ; Value ; Type                          ;
++----------------+-------+-------------------------------+
+; n              ; 25    ; Signed Integer                ;
++----------------+-------+-------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------+
+; Parameter Settings for User Entity Instance: reg:reg2 ;
++----------------+-------+------------------------------+
+; Parameter Name ; Value ; Type                         ;
++----------------+-------+------------------------------+
+; n              ; 25    ; Signed Integer               ;
++----------------+-------+------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------------------------------+
+; Parameter Settings for User Entity Instance: reg:reg3 ;
++----------------+-------+------------------------------+
+; Parameter Name ; Value ; Type                         ;
++----------------+-------+------------------------------+
+; n              ; 17    ; Signed Integer               ;
++----------------+-------+------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: clipping:clip ;
++----------------+-------+-----------------------------------+
+; Parameter Name ; Value ; Type                              ;
++----------------+-------+-----------------------------------+
+; nin            ; 17    ; Signed Integer                    ;
+; nout           ; 8     ; Signed Integer                    ;
+; min            ; 0     ; Signed Integer                    ;
+; max            ; 255   ; Signed Integer                    ;
++----------------+-------+-----------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-----------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "reg:reg2"                                                                                  ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+; Port        ; Type   ; Severity ; Details                                                                             ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+; saida[6..0] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++-------------+--------+----------+-------------------------------------------------------------------------------------+
+
+
++--------------------------------------------+
+; Port Connectivity Checks: "mux41:mux"      ;
++----------+-------+----------+--------------+
+; Port     ; Type  ; Severity ; Details      ;
++----------+-------+----------+--------------+
+; entrada4 ; Input ; Info     ; Stuck at GND ;
++----------+-------+----------+--------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "alf_5x5_pcarc:alf_5x5_para_carcaca"                                                                                                            ;
++--------+--------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; Port   ; Type   ; Severity ; Details                                                                                                                                      ;
++--------+--------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+; selin  ; Input  ; Warning  ; Declared by entity but not connected by instance. If a default value exists, it will be used.  Otherwise, the port will be connected to GND. ;
+; selout ; Output ; Warning  ; Declared by entity but not connected by instance. Logic that only feeds a dangling port will be removed.                                     ;
++--------+--------+----------+----------------------------------------------------------------------------------------------------------------------------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:02     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Analysis & Synthesis
+    Info: Version 12.1 Build 177 11/07/2012 SJ Full Version
+    Info: Processing started: Fri Nov 15 21:01:16 2013
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off alf_adapt -c alf_adapt
+Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
+Info (12021): Found 2 design units, including 1 entities, in source file reg.vhd
+    Info (12022): Found design unit 1: reg-behavioral
+    Info (12023): Found entity 1: reg
+Warning (12090): Entity "mux41" obtained from "mux41.vhd" instead of from Quartus II megafunction library
+Info (12021): Found 2 design units, including 1 entities, in source file mux41.vhd
+    Info (12022): Found design unit 1: mux41-comportamento
+    Info (12023): Found entity 1: mux41
+Info (12021): Found 2 design units, including 1 entities, in source file clipping.vhd
+    Info (12022): Found design unit 1: clipping-behavioral
+    Info (12023): Found entity 1: clipping
+Info (12021): Found 2 design units, including 1 entities, in source file alf_9x9_carcaca.vhd
+    Info (12022): Found design unit 1: alf_9x9_carcaca-behavioral
+    Info (12023): Found entity 1: alf_9x9_carcaca
+Info (12021): Found 2 design units, including 1 entities, in source file alf_7x7_carcaca.vhd
+    Info (12022): Found design unit 1: alf_7x7_carcaca-behavioral
+    Info (12023): Found entity 1: alf_7x7_carcaca
+Info (12021): Found 2 design units, including 1 entities, in source file alf_5x5_pcarc.vhd
+    Info (12022): Found design unit 1: alf_5x5_pcarc-behavioral
+    Info (12023): Found entity 1: alf_5x5_pcarc
+Info (12021): Found 2 design units, including 1 entities, in source file alf_adapt.vhd
+    Info (12022): Found design unit 1: alf_adapt-estrutura
+    Info (12023): Found entity 1: alf_adapt
+Info (12127): Elaborating entity "alf_adapt" for the top level hierarchy
+Info (12128): Elaborating entity "alf_5x5_pcarc" for hierarchy "alf_5x5_pcarc:alf_5x5_para_carcaca"
+Warning (10036): Verilog HDL or VHDL warning at alf_5x5_pcarc.vhd(39): object "sel_t5" assigned a value but never read
+Info (12128): Elaborating entity "alf_7x7_carcaca" for hierarchy "alf_7x7_carcaca:alf_7x7"
+Info (12128): Elaborating entity "alf_9x9_carcaca" for hierarchy "alf_9x9_carcaca:alf_9x9"
+Info (12128): Elaborating entity "reg" for hierarchy "reg:reg_5x5"
+Info (12128): Elaborating entity "reg" for hierarchy "reg:reg_7x7_1"
+Info (12128): Elaborating entity "reg" for hierarchy "reg:reg_9x9_2"
+Info (12128): Elaborating entity "mux41" for hierarchy "mux41:mux"
+Warning (10492): VHDL Process Statement warning at mux41.vhd(17): signal "entrada1" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at mux41.vhd(20): signal "entrada2" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at mux41.vhd(23): signal "entrada3" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Warning (10492): VHDL Process Statement warning at mux41.vhd(25): signal "entrada4" is read inside the Process Statement but isn't in the Process Statement's sensitivity list
+Info (12128): Elaborating entity "reg" for hierarchy "reg:reg3"
+Info (12128): Elaborating entity "clipping" for hierarchy "clipping:clip"
+Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Info (286030): Timing-Driven Synthesis is running
+Info (17049): 210 registers lost all their fanouts during netlist optimizations.
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 2329 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 516 input pins
+    Info (21059): Implemented 8 output pins
+    Info (21061): Implemented 1788 logic cells
+    Info (21062): Implemented 17 DSP elements
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 7 warnings
+    Info: Peak virtual memory: 553 megabytes
+    Info: Processing ended: Fri Nov 15 21:01:21 2013
+    Info: Elapsed time: 00:00:05
+    Info: Total CPU time (on all processors): 00:00:05
+
+

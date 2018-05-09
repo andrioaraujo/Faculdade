@@ -1,0 +1,21 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity controlunit is
+
+	port 
+	(
+		16bin	: in std_logic_vector(15 downto 0);
+		16bout	: out std_logic_vector(15 downto 0)
+	);
+
+end entity;
+
+architecture behavior of controlunit is
+
+begin
+
+	16bout(14 downto 0) <= 16bin(15 downto 1);
+	16bout(15) <= 16bin(15);
+
+end behavior;

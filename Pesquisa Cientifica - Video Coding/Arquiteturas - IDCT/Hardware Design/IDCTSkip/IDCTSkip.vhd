@@ -1,0 +1,59 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity idctskip is
+	port 
+	(
+		in_0, in_1, in_2, in_3	: in std_logic_vector(15 downto 0);
+		out_0, out_1, out_2, out_3	: in std_logic_vector(15 downto 0)
+	);
+end entity;
+
+architecture behavior of idctskip is
+
+component ctrlunit
+		port (
+			in_0	: in std_logic_vector(15 downto 0);
+			in_1	: in std_logic_vector(15 downto 0);
+			in_2	: in std_logic_vector(15 downto 0);
+			in_3	: in std_logic_vector(15 downto 0);		
+			sc	: out std_logic );
+end component;
+
+component shifter is
+	port 
+	(
+		in16	: in std_logic_vector(15 downto 0);
+		out16 : out std_logic_vector(15 downto 0)
+	);
+end component;
+
+component IMux 
+	port (
+		ctrl	: in std_logic;
+		in_sc	: in std_logic_vector(15 downto 0);
+		in_0	: in std_logic_vector(15 downto 0);
+		in_1	: in std_logic_vector(15 downto 0);
+		in_2	: in std_logic_vector(15 downto 0);
+		in_3	: in std_logic_vector(15 downto 0);
+		
+		out_0	: out std_logic_vector(15 downto 0);
+		out_1	: out std_logic_vector(15 downto 0);
+		out_2	: out std_logic_vector(15 downto 0);
+		out_3	: out std_logic_vector(15 downto 0)
+	);
+end component;
+
+component op_module_IDCT_4_otimizada
+	port (	
+		IN0, IN1, IN2, IN3: in std_logic_vector(15 downto 0);
+		DST0, DST1, DST2, DST3: out std_logic_vector(14 downto 0)
+		);
+end component;
+
+
+
+
+BEGIN
+
+end behavior;
